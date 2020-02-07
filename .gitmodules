@@ -1,0 +1,9 @@
+[submodule ".\\minato\\keebio-components"]
+	path = .\\minato\\keebio-components
+	url = git@github.com:keebio/keebio-components.git
+[submodule ".\\minato\\Keebio-Parts.pretty"]
+	path = .\\minato\\Keebio-Parts.pretty
+	url = git@github.com:keebio/Keebio-Parts.pretty.git
+[submodule ".\\minato\\MX_Alps_Hybrid"]
+	path = .\\minato\\MX_Alps_Hybrid
+	url = git@github.com:ai03-2725/MX_Alps_Hybrid.git
