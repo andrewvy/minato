@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Keebio-Parts.pretty)(type KiCad)(uri ${KIPRJMOD}/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name keyswitches.pretty)(type KiCad)(uri ${KIPRJMOD}/keyswitches.pretty)(options "")(descr ""))
+)

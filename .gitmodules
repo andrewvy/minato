@@ -7,3 +7,6 @@
 [submodule ".\\minato\\MX_Alps_Hybrid"]
 	path = .\\minato\\MX_Alps_Hybrid
 	url = git@github.com:ai03-2725/MX_Alps_Hybrid.git
+[submodule ".\\minato\\keyswitches.pretty"]
+	path = .\\minato\\keyswitches.pretty
+	url = git@github.com:daprice/keyswitches.pretty.git
