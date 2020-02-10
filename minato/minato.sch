@@ -19,7 +19,7 @@ U 1 1 5E3DD7C7
 P 1550 1500
 F 0 "U1" H 1550 2337 60  0000 C CNN
 F 1 "Elite-C" H 1550 2231 60  0000 C CNN
-F 2 "Keebio-Parts.pretty:Elite-C-castellated-29pin-holes" V 2600 -1000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Elite-C-castellated-29pin" V 2600 -1000 60  0001 C CNN
 F 3 "" V 2600 -1000 60  0001 C CNN
 	1    1550 1500
 	1    0    0    -1  
@@ -38,87 +38,10 @@ Text GLabel 850  1750 0    50   Input ~ 0
 Col5
 Text GLabel 850  1850 0    50   Input ~ 0
 Col6
-$Comp
-L Device:D_Small D1
-U 1 1 5E820E4A
-P 3650 1400
-F 0 "D1" V 3600 1500 39  0000 L CNN
-F 1 "1N4148" V 3650 1450 20  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 3650 1400 50  0001 C CNN
-F 3 "~" V 3650 1400 50  0001 C CNN
-	1    3650 1400
-	0    1    1    0   
-$EndComp
 Text GLabel 3300 1250 0    50   Input ~ 0
 Row1
 Text GLabel 3750 950  1    50   Input ~ 0
 Col0
-$Comp
-L Device:D_Small D7
-U 1 1 5E820E58
-P 3950 1400
-F 0 "D7" V 3900 1500 39  0000 L CNN
-F 1 "1N4148" V 3950 1450 20  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 3950 1400 50  0001 C CNN
-F 3 "~" V 3950 1400 50  0001 C CNN
-	1    3950 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX0:1
-U 1 1 5E820E5E
-P 3900 1650
-F 0 "MX0:1" H 4000 1550 39  0000 C CNN
-F 1 "Macro2" H 4000 1500 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 1625 60  0001 C CNN
-F 3 "" H 3275 1625 60  0001 C CNN
-	1    3900 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D12
-U 1 1 5E820E64
-P 4250 1400
-F 0 "D12" V 4200 1500 39  0000 L CNN
-F 1 "1N4148" V 4250 1450 20  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 4250 1400 50  0001 C CNN
-F 3 "~" V 4250 1400 50  0001 C CNN
-	1    4250 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX1:0
-U 1 1 5E820E6A
-P 4200 1650
-F 0 "MX1:0" H 4300 1550 39  0000 C CNN
-F 1 "Macro3" H 4300 1500 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3575 1625 60  0001 C CNN
-F 3 "" H 3575 1625 60  0001 C CNN
-	1    4200 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D18
-U 1 1 5E820E70
-P 4550 1400
-F 0 "D18" V 4500 1500 39  0000 L CNN
-F 1 "1N4148" V 4550 1450 20  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 4550 1400 50  0001 C CNN
-F 3 "~" V 4550 1400 50  0001 C CNN
-	1    4550 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX1:1
-U 1 1 5E820E76
-P 4500 1650
-F 0 "MX1:1" H 4600 1550 39  0000 C CNN
-F 1 "Macro4" H 4600 1500 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3875 1625 60  0001 C CNN
-F 3 "" H 3875 1625 60  0001 C CNN
-	1    4500 1650
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:D_Small D2
 U 1 1 5E820E7C
@@ -1120,17 +1043,6 @@ Text GLabel 8550 950  1    50   Input ~ 0
 Col8
 Text GLabel 9150 950  1    50   Input ~ 0
 Col9
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX0:0
-U 1 1 5E820E51
-P 3600 1650
-F 0 "MX0:0" H 3700 1550 39  0000 C CNN
-F 1 "Macro1" H 3700 1500 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2975 1625 60  0001 C CNN
-F 3 "" H 2975 1625 60  0001 C CNN
-	1    3600 1650
-	-1   0    0    1   
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:11
 U 1 1 5E821384
@@ -2370,10 +2282,6 @@ Text GLabel 3300 4600 0    50   Input ~ 0
 Row10
 Text GLabel 3300 4700 0    50   Input ~ 0
 Row11
-Wire Wire Line
-	3300 1250 3950 1250
-Wire Wire Line
-	3300 1150 3650 1150
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:6
 U 1 1 5E82136C
@@ -2406,17 +2314,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 4700 4250 4700
 Wire Wire Line
-	3750 1700 3750 1000
-Wire Wire Line
-	3450 1700 3450 1000
-Wire Wire Line
 	3450 1000 3750 1000
 Connection ~ 3750 1000
 Wire Wire Line
 	3750 1000 3750 950 
-Wire Wire Line
-	3750 1700 3750 2450
-Connection ~ 3750 1700
 Connection ~ 3750 2450
 Wire Wire Line
 	3750 2450 3750 3200
@@ -2428,10 +2329,7 @@ Wire Wire Line
 	3750 3850 3750 4500
 Wire Wire Line
 	3450 5150 3450 4500
-Connection ~ 3450 1700
 Connection ~ 3450 2450
-Wire Wire Line
-	3450 2450 3450 1700
 Connection ~ 3450 3200
 Wire Wire Line
 	3450 3200 3450 2450
@@ -2443,9 +2341,6 @@ Wire Wire Line
 	3450 4500 3450 3850
 Wire Wire Line
 	4350 950  4350 1000
-Connection ~ 4350 1700
-Wire Wire Line
-	4350 1700 4350 2450
 Connection ~ 4350 2450
 Wire Wire Line
 	4350 2450 4350 3200
@@ -2454,14 +2349,7 @@ Wire Wire Line
 	4350 3200 4350 4500
 Wire Wire Line
 	4350 1000 4050 1000
-Wire Wire Line
-	4050 1000 4050 1700
 Connection ~ 4350 1000
-Wire Wire Line
-	4350 1000 4350 1700
-Connection ~ 4050 1700
-Wire Wire Line
-	4050 1700 4050 2450
 Connection ~ 4050 2450
 Wire Wire Line
 	4050 2450 4050 3200
@@ -2750,26 +2638,6 @@ Wire Wire Line
 Connection ~ 8850 4500
 Wire Wire Line
 	8850 4500 8850 5150
-Wire Wire Line
-	3650 1300 3650 1150
-Connection ~ 3650 1150
-Wire Wire Line
-	3650 1150 4250 1150
-Wire Wire Line
-	3950 1300 3950 1250
-Connection ~ 3950 1250
-Wire Wire Line
-	3950 1250 4550 1250
-Wire Wire Line
-	4250 1300 4250 1150
-Connection ~ 4250 1150
-Wire Wire Line
-	4250 1150 4850 1150
-Wire Wire Line
-	4550 1300 4550 1250
-Connection ~ 4550 1250
-Wire Wire Line
-	4550 1250 5150 1250
 Wire Wire Line
 	4850 1300 4850 1150
 Connection ~ 4850 1150
@@ -3280,4 +3148,106 @@ F 3 "" H 8375 5075 60  0001 C CNN
 	1    9000 5100
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4550 1250 5150 1250
+Connection ~ 4550 1250
+Wire Wire Line
+	4550 1300 4550 1250
+$Comp
+L Device:D_Small D18
+U 1 1 5E820E70
+P 4550 1400
+F 0 "D18" V 4500 1500 39  0000 L CNN
+F 1 "1N4148" V 4550 1450 20  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 4550 1400 50  0001 C CNN
+F 3 "~" V 4550 1400 50  0001 C CNN
+	1    4550 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 1000 4350 1700
+Wire Wire Line
+	4350 1700 4350 2450
+Connection ~ 4350 1700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1:1
+U 1 1 5E820E76
+P 4500 1650
+F 0 "MX1:1" H 4600 1550 39  0000 C CNN
+F 1 "Macro4" H 4600 1500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3875 1625 60  0001 C CNN
+F 3 "" H 3875 1625 60  0001 C CNN
+	1    4500 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 1150 4850 1150
+Connection ~ 4250 1150
+Wire Wire Line
+	4250 1300 4250 1150
+$Comp
+L Device:D_Small D12
+U 1 1 5E820E64
+P 4250 1400
+F 0 "D12" V 4200 1500 39  0000 L CNN
+F 1 "1N4148" V 4250 1450 20  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 4250 1400 50  0001 C CNN
+F 3 "~" V 4250 1400 50  0001 C CNN
+	1    4250 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 1700 4050 2450
+Wire Wire Line
+	4050 1000 4050 1700
+Connection ~ 4050 1700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1:0
+U 1 1 5E820E6A
+P 4200 1650
+F 0 "MX1:0" H 4300 1550 39  0000 C CNN
+F 1 "Macro3" H 4300 1500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3575 1625 60  0001 C CNN
+F 3 "" H 3575 1625 60  0001 C CNN
+	1    4200 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 1250 4550 1250
+Wire Wire Line
+	3300 1250 3950 1250
+Connection ~ 3950 1250
+Wire Wire Line
+	3950 1300 3950 1250
+$Comp
+L Device:D_Small D7
+U 1 1 5E820E58
+P 3950 1400
+F 0 "D7" V 3900 1500 39  0000 L CNN
+F 1 "1N4148" V 3950 1450 20  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 3950 1400 50  0001 C CNN
+F 3 "~" V 3950 1400 50  0001 C CNN
+	1    3950 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 1700 3750 2450
+Wire Wire Line
+	3750 1700 3750 1000
+Connection ~ 3750 1700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX0:1
+U 1 1 5E820E5E
+P 3900 1650
+F 0 "MX0:1" H 4000 1550 39  0000 C CNN
+F 1 "Macro2" H 4000 1500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 1625 60  0001 C CNN
+F 3 "" H 3275 1625 60  0001 C CNN
+	1    3900 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 1000 3450 2450
+Wire Wire Line
+	3300 1150 4250 1150
 $EndSCHEMATC
