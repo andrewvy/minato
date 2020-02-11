@@ -13,30 +13,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L keebio-components:Elite-C U1
-U 1 1 5E3DD7C7
-P 1550 1500
-F 0 "U1" H 1550 2337 60  0000 C CNN
-F 1 "Elite-C" H 1550 2231 60  0000 C CNN
-F 2 "Keebio-Parts.pretty:Elite-C-castellated-29pin" V 2600 -1000 60  0001 C CNN
-F 3 "" V 2600 -1000 60  0001 C CNN
-	1    1550 1500
-	1    0    0    -1  
-$EndComp
-Text GLabel 850  950  0    50   Input ~ 0
+Text GLabel 13450 2850 0    50   Input ~ 0
 Col0
-Text GLabel 850  1350 0    50   Input ~ 0
+Text GLabel 13450 2950 0    50   Input ~ 0
 Col1
-Text GLabel 850  1450 0    50   Input ~ 0
+Text GLabel 13450 3050 0    50   Input ~ 0
 Col2
-Text GLabel 850  1550 0    50   Input ~ 0
+Text GLabel 13450 3150 0    50   Input ~ 0
 Col3
-Text GLabel 850  1650 0    50   Input ~ 0
+Text GLabel 13450 3250 0    50   Input ~ 0
 Col4
-Text GLabel 850  1750 0    50   Input ~ 0
+Text GLabel 13450 3350 0    50   Input ~ 0
 Col5
-Text GLabel 850  1850 0    50   Input ~ 0
+Text GLabel 13450 3450 0    50   Input ~ 0
 Col6
 Text GLabel 3300 1250 0    50   Input ~ 0
 Row1
@@ -3107,35 +3096,33 @@ Wire Wire Line
 	9050 4750 9050 4600
 Wire Wire Line
 	9350 4750 9350 4700
-Text GLabel 850  1950 0    50   Input ~ 0
+Text GLabel 13450 3550 0    50   Input ~ 0
 Col7
-Text GLabel 850  2050 0    50   Input ~ 0
+Text GLabel 13450 3650 0    50   Input ~ 0
 Col8
-Text GLabel 1350 2450 3    50   Input ~ 0
+Text GLabel 13450 3750 0    50   Input ~ 0
 Col9
-Text GLabel 1450 2450 3    50   Input ~ 0
+Text GLabel 13450 3850 0    50   Input ~ 0
 Row0
-Text GLabel 1550 2450 3    50   Input ~ 0
+Text GLabel 13450 3950 0    50   Input ~ 0
 Row1
-Text GLabel 1650 2450 3    50   Input ~ 0
+Text GLabel 13450 4050 0    50   Input ~ 0
 Row2
-Text GLabel 1750 2450 3    50   Input ~ 0
+Text GLabel 13450 4150 0    50   Input ~ 0
 Row3
-Text GLabel 2250 2050 2    50   Input ~ 0
+Text GLabel 13450 4250 0    50   Input ~ 0
 Row4
-Text GLabel 2250 1950 2    50   Input ~ 0
+Text GLabel 13450 4350 0    50   Input ~ 0
 Row5
-Text GLabel 2250 1850 2    50   Input ~ 0
+Text GLabel 14750 3350 2    50   Input ~ 0
 Row6
-Text GLabel 2250 1750 2    50   Input ~ 0
+Text GLabel 14750 3250 2    50   Input ~ 0
 Row7
-Text GLabel 2250 1650 2    50   Input ~ 0
-Row8
-Text GLabel 2250 1550 2    50   Input ~ 0
+Text GLabel 14750 3050 2    50   Input ~ 0
 Row9
-Text GLabel 2250 1450 2    50   Input ~ 0
+Text GLabel 14750 2950 2    50   Input ~ 0
 Row10
-Text GLabel 2250 1350 2    50   Input ~ 0
+Text GLabel 14750 2850 2    50   Input ~ 0
 Row11
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:10
@@ -3214,8 +3201,6 @@ F 3 "" H 3575 1625 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	3950 1250 4550 1250
-Wire Wire Line
-	3300 1250 3950 1250
 Connection ~ 3950 1250
 Wire Wire Line
 	3950 1300 3950 1250
@@ -3249,38 +3234,109 @@ $EndComp
 Wire Wire Line
 	3450 1000 3450 2450
 Wire Wire Line
-	3300 1150 4250 1150
+	3300 1150 3650 1150
 $Comp
-L power:GND #PWR?
-U 1 1 5E57B2BC
-P 850 1250
-F 0 "#PWR?" H 850 1000 50  0001 C CNN
-F 1 "GND" V 855 1122 50  0000 R CNN
-F 2 "" H 850 1250 50  0001 C CNN
-F 3 "" H 850 1250 50  0001 C CNN
-	1    850  1250
+L MCU_ST_STM32F1:STM32F103C8Tx U2
+U 1 1 5E445AE3
+P 14150 3050
+F 0 "U2" H 14100 1461 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 14100 1370 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 13550 1650 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 14150 3050 50  0001 C CNN
+	1    14150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5E46D07D
+P 3650 1400
+F 0 "D1" V 3600 1500 39  0000 L CNN
+F 1 "1N4148" V 3650 1450 20  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 3650 1400 50  0001 C CNN
+F 3 "~" V 3650 1400 50  0001 C CNN
+	1    3650 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5E57CB9D
-P 2250 1050
-F 0 "#PWR?" H 2250 800 50  0001 C CNN
-F 1 "GND" V 2255 922 50  0000 R CNN
-F 2 "" H 2250 1050 50  0001 C CNN
-F 3 "" H 2250 1050 50  0001 C CNN
-	1    2250 1050
-	0    -1   -1   0   
+L MX_Alps_Hybrid:MX-NoLED MX0:0
+U 1 1 5E46D083
+P 3600 1650
+F 0 "MX0:0" H 3700 1550 39  0000 C CNN
+F 1 "Macro1" H 3700 1500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2975 1625 60  0001 C CNN
+F 3 "" H 2975 1625 60  0001 C CNN
+	1    3600 1650
+	-1   0    0    1   
+$EndComp
+Text GLabel 14750 3150 2    50   Input ~ 0
+Row8
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J1
+U 1 1 5E479C5D
+P 10850 1400
+F 0 "J1" V 10300 1450 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" V 10400 1850 50  0000 R CNN
+F 2 "" H 10850 1400 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 10500 150 50  0001 C CNN
+	1    10850 1400
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5E57DFD0
-P 850 1150
-F 0 "#PWR?" H 850 900 50  0001 C CNN
-F 1 "GND" V 855 1022 50  0000 R CNN
-F 2 "" H 850 1150 50  0001 C CNN
-F 3 "" H 850 1150 50  0001 C CNN
-	1    850  1150
-	0    1    1    0   
+L power:GND #PWR0101
+U 1 1 5E47FDAE
+P 10750 2000
+F 0 "#PWR0101" H 10750 1750 50  0001 C CNN
+F 1 "GND" H 10755 1827 50  0000 C CNN
+F 2 "" H 10750 2000 50  0001 C CNN
+F 3 "" H 10750 2000 50  0001 C CNN
+	1    10750 2000
+	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E481769
+P 10850 2000
+F 0 "#PWR0102" H 10850 1750 50  0001 C CNN
+F 1 "GND" H 10855 1827 50  0000 C CNN
+F 2 "" H 10850 2000 50  0001 C CNN
+F 3 "" H 10850 2000 50  0001 C CNN
+	1    10850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5E483BED
+P 10850 800
+F 0 "#PWR0103" H 10850 650 50  0001 C CNN
+F 1 "+3.3V" H 10865 973 50  0000 C CNN
+F 2 "" H 10850 800 50  0001 C CNN
+F 3 "" H 10850 800 50  0001 C CNN
+	1    10850 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel 11350 1100 2    50   Input ~ 0
+NRST
+Text GLabel 11350 1300 2    50   Input ~ 0
+SWCLK
+Text GLabel 11350 1400 2    50   Input ~ 0
+SWDIO
+NoConn ~ 11350 1500
+NoConn ~ 11350 1600
+Text GLabel 13450 1750 0    50   Input ~ 0
+NRST
+Text GLabel 14750 4050 2    50   Input ~ 0
+D+
+Text GLabel 14750 3950 2    50   Input ~ 0
+D-
+Text GLabel 14750 4150 2    50   Input ~ 0
+SWDIO
+Text GLabel 14750 4250 2    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	3300 1250 3950 1250
+Wire Wire Line
+	3650 1300 3650 1150
+Connection ~ 3650 1150
+Wire Wire Line
+	3650 1150 4250 1150
 $EndSCHEMATC
