@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name keebio-components)(type Legacy)(uri ${KIPRJMOD}/keebio-components/keebio.lib)(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name CSTCE16M0V53-R0)(type Legacy)(uri ${KIPRJMOD}/CSTCE16M0V53-R0.lib)(options "")(descr ""))
 )
