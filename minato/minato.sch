@@ -13,3206 +13,1978 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 900  1200 0    50   Input ~ 0
+Text GLabel 1150 6100 0    50   Input ~ 0
 Row1
-Text GLabel 1350 900  1    50   Input ~ 0
-Col0
 $Comp
 L Device:D_Small D2
 U 1 1 5E820E7C
-P 1250 2100
-F 0 "D2" V 1200 2200 39  0000 L CNN
-F 1 "1N4148" V 1250 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1250 2100 50  0001 C CNN
-F 3 "~" V 1250 2100 50  0001 C CNN
-	1    1250 2100
-	0    1    1    0   
+P 1300 7200
+F 0 "D2" V 1250 7300 39  0000 L CNN
+F 1 "1N4148" V 1300 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1300 7200 50  0001 C CNN
+F 3 "~" V 1300 7200 50  0001 C CNN
+	1    1300 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:2
 U 1 1 5E820E82
-P 1200 2350
-F 0 "MX0:2" H 1300 2250 39  0000 C CNN
-F 1 "NumLock" H 1300 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 575 2325 60  0001 C CNN
-F 3 "" H 575 2325 60  0001 C CNN
-	1    1200 2350
+P 1450 7250
+F 0 "MX0:2" H 1550 7150 39  0000 C CNN
+F 1 "NumLock" H 1550 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 825 7225 60  0001 C CNN
+F 3 "" H 825 7225 60  0001 C CNN
+	1    1450 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D8
-U 1 1 5E820E88
-P 1550 2100
-F 0 "D8" V 1500 2200 39  0000 L CNN
-F 1 "1N4148" V 1550 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1550 2100 50  0001 C CNN
-F 3 "~" V 1550 2100 50  0001 C CNN
-	1    1550 2100
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:3
 U 1 1 5E820E8E
-P 1500 2350
-F 0 "MX0:3" H 1600 2250 39  0000 C CNN
-F 1 "/" H 1600 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 875 2325 60  0001 C CNN
-F 3 "" H 875 2325 60  0001 C CNN
-	1    1500 2350
+P 1800 7250
+F 0 "MX0:3" H 1900 7150 39  0000 C CNN
+F 1 "/" H 1900 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 7225 60  0001 C CNN
+F 3 "" H 1175 7225 60  0001 C CNN
+	1    1800 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D13
 U 1 1 5E820E94
-P 1850 2100
-F 0 "D13" V 1800 2200 39  0000 L CNN
-F 1 "1N4148" V 1850 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1850 2100 50  0001 C CNN
-F 3 "~" V 1850 2100 50  0001 C CNN
-	1    1850 2100
-	0    1    1    0   
+P 2000 7200
+F 0 "D13" V 1950 7300 39  0000 L CNN
+F 1 "1N4148" V 2000 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2000 7200 50  0001 C CNN
+F 3 "~" V 2000 7200 50  0001 C CNN
+	1    2000 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:2
 U 1 1 5E820E9A
-P 1800 2350
-F 0 "MX1:2" H 1900 2250 39  0000 C CNN
-F 1 "*" H 1900 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 2325 60  0001 C CNN
-F 3 "" H 1175 2325 60  0001 C CNN
-	1    1800 2350
+P 2150 7250
+F 0 "MX1:2" H 2250 7150 39  0000 C CNN
+F 1 "*" H 2250 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1525 7225 60  0001 C CNN
+F 3 "" H 1525 7225 60  0001 C CNN
+	1    2150 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D19
 U 1 1 5E820EA0
-P 2150 2100
-F 0 "D19" V 2100 2200 39  0000 L CNN
-F 1 "1N4148" V 2150 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2150 2100 50  0001 C CNN
-F 3 "~" V 2150 2100 50  0001 C CNN
-	1    2150 2100
-	0    1    1    0   
+P 2350 7200
+F 0 "D19" V 2300 7300 39  0000 L CNN
+F 1 "1N4148" V 2350 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2350 7200 50  0001 C CNN
+F 3 "~" V 2350 7200 50  0001 C CNN
+	1    2350 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:3
 U 1 1 5E820EA6
-P 2100 2350
-F 0 "MX1:3" H 2200 2250 39  0000 C CNN
-F 1 "-" H 2200 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1475 2325 60  0001 C CNN
-F 3 "" H 1475 2325 60  0001 C CNN
-	1    2100 2350
+P 2500 7250
+F 0 "MX1:3" H 2600 7150 39  0000 C CNN
+F 1 "-" H 2600 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1875 7225 60  0001 C CNN
+F 3 "" H 1875 7225 60  0001 C CNN
+	1    2500 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D3
 U 1 1 5E820EAC
-P 1250 2850
-F 0 "D3" V 1200 2950 39  0000 L CNN
-F 1 "1N4148" V 1250 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1250 2850 50  0001 C CNN
-F 3 "~" V 1250 2850 50  0001 C CNN
-	1    1250 2850
-	0    1    1    0   
+P 1300 7950
+F 0 "D3" V 1250 8050 39  0000 L CNN
+F 1 "1N4148" V 1300 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1300 7950 50  0001 C CNN
+F 3 "~" V 1300 7950 50  0001 C CNN
+	1    1300 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D9
 U 1 1 5E820EB8
-P 1550 2850
-F 0 "D9" V 1500 2950 39  0000 L CNN
-F 1 "1N4148" V 1550 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1550 2850 50  0001 C CNN
-F 3 "~" V 1550 2850 50  0001 C CNN
-	1    1550 2850
-	0    1    1    0   
+P 1650 7950
+F 0 "D9" V 1600 8050 39  0000 L CNN
+F 1 "1N4148" V 1650 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1650 7950 50  0001 C CNN
+F 3 "~" V 1650 7950 50  0001 C CNN
+	1    1650 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D14
 U 1 1 5E820EC4
-P 1850 2850
-F 0 "D14" V 1800 2950 39  0000 L CNN
-F 1 "1N4148" V 1850 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1850 2850 50  0001 C CNN
-F 3 "~" V 1850 2850 50  0001 C CNN
-	1    1850 2850
-	0    1    1    0   
+P 2000 7950
+F 0 "D14" V 1950 8050 39  0000 L CNN
+F 1 "1N4148" V 2000 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2000 7950 50  0001 C CNN
+F 3 "~" V 2000 7950 50  0001 C CNN
+	1    2000 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D20
 U 1 1 5E820EF4
-P 2150 2850
-F 0 "D20" V 2100 2950 39  0000 L CNN
-F 1 "1N4148" V 2150 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2150 2850 50  0001 C CNN
-F 3 "~" V 2150 2850 50  0001 C CNN
-	1    2150 2850
-	0    1    1    0   
+P 2350 7950
+F 0 "D20" V 2300 8050 39  0000 L CNN
+F 1 "1N4148" V 2350 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2350 7950 50  0001 C CNN
+F 3 "~" V 2350 7950 50  0001 C CNN
+	1    2350 7950
+	0    -1   -1   0   
 $EndComp
-Text GLabel 1950 900  1    50   Input ~ 0
-Col1
-Text GLabel 2550 900  1    50   Input ~ 0
+Text GLabel 3000 5800 1    50   Input ~ 0
 Col2
-Text GLabel 3150 900  1    50   Input ~ 0
+Text GLabel 3700 5800 1    50   Input ~ 0
 Col3
-Text GLabel 900  1100 0    50   Input ~ 0
+Text GLabel 1150 6000 0    50   Input ~ 0
 Row0
-Text GLabel 900  1750 0    50   Input ~ 0
+Text GLabel 1150 6650 0    50   Input ~ 0
 Row2
 $Comp
 L Device:D_Small D22
 U 1 1 5E820F9A
-P 2450 1350
-F 0 "D22" V 2400 1450 39  0000 L CNN
-F 1 "1N4148" V 2450 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2450 1350 50  0001 C CNN
-F 3 "~" V 2450 1350 50  0001 C CNN
-	1    2450 1350
-	0    1    1    0   
+P 2700 6450
+F 0 "D22" V 2650 6550 39  0000 L CNN
+F 1 "1N4148" V 2700 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2700 6450 50  0001 C CNN
+F 3 "~" V 2700 6450 50  0001 C CNN
+	1    2700 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:0
 U 1 1 5E820FA0
-P 2400 1600
-F 0 "MX2:0" H 2500 1500 39  0000 C CNN
-F 1 "Esc" H 2500 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1775 1575 60  0001 C CNN
-F 3 "" H 1775 1575 60  0001 C CNN
-	1    2400 1600
+P 2850 6500
+F 0 "MX2:0" H 2950 6400 39  0000 C CNN
+F 1 "Esc" H 2950 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2225 6475 60  0001 C CNN
+F 3 "" H 2225 6475 60  0001 C CNN
+	1    2850 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D23
 U 1 1 5E820FA6
-P 2450 2100
-F 0 "D23" V 2400 2200 39  0000 L CNN
-F 1 "1N4148" V 2450 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2450 2100 50  0001 C CNN
-F 3 "~" V 2450 2100 50  0001 C CNN
-	1    2450 2100
-	0    1    1    0   
+P 2700 7200
+F 0 "D23" V 2650 7300 39  0000 L CNN
+F 1 "1N4148" V 2700 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2700 7200 50  0001 C CNN
+F 3 "~" V 2700 7200 50  0001 C CNN
+	1    2700 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:2
 U 1 1 5E820FAC
-P 2400 2350
-F 0 "MX2:2" H 2500 2250 39  0000 C CNN
-F 1 "`" H 2500 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1775 2325 60  0001 C CNN
-F 3 "" H 1775 2325 60  0001 C CNN
-	1    2400 2350
+P 2850 7250
+F 0 "MX2:2" H 2950 7150 39  0000 C CNN
+F 1 "`" H 2950 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2225 7225 60  0001 C CNN
+F 3 "" H 2225 7225 60  0001 C CNN
+	1    2850 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D24
 U 1 1 5E820FB2
-P 2450 2850
-F 0 "D24" V 2400 2950 39  0000 L CNN
-F 1 "1N4148" V 2450 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2450 2850 50  0001 C CNN
-F 3 "~" V 2450 2850 50  0001 C CNN
-	1    2450 2850
-	0    1    1    0   
+P 2700 7950
+F 0 "D24" V 2650 8050 39  0000 L CNN
+F 1 "1N4148" V 2700 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2700 7950 50  0001 C CNN
+F 3 "~" V 2700 7950 50  0001 C CNN
+	1    2700 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D28
 U 1 1 5E820FE2
-P 2750 1350
-F 0 "D28" V 2700 1450 39  0000 L CNN
-F 1 "1N4148" V 2750 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2750 1350 50  0001 C CNN
-F 3 "~" V 2750 1350 50  0001 C CNN
-	1    2750 1350
-	0    1    1    0   
+P 3050 6450
+F 0 "D28" V 3000 6550 39  0000 L CNN
+F 1 "1N4148" V 3050 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 6450 50  0001 C CNN
+F 3 "~" V 3050 6450 50  0001 C CNN
+	1    3050 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:1
 U 1 1 5E820FE8
-P 2700 1600
-F 0 "MX2:1" H 2800 1500 39  0000 C CNN
-F 1 "F1" H 2800 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2075 1575 60  0001 C CNN
-F 3 "" H 2075 1575 60  0001 C CNN
-	1    2700 1600
+P 3200 6500
+F 0 "MX2:1" H 3300 6400 39  0000 C CNN
+F 1 "F1" H 3300 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2575 6475 60  0001 C CNN
+F 3 "" H 2575 6475 60  0001 C CNN
+	1    3200 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D29
 U 1 1 5E820FEE
-P 2750 2100
-F 0 "D29" V 2700 2200 39  0000 L CNN
-F 1 "1N4148" V 2750 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2750 2100 50  0001 C CNN
-F 3 "~" V 2750 2100 50  0001 C CNN
-	1    2750 2100
-	0    1    1    0   
+P 3050 7200
+F 0 "D29" V 3000 7300 39  0000 L CNN
+F 1 "1N4148" V 3050 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 7200 50  0001 C CNN
+F 3 "~" V 3050 7200 50  0001 C CNN
+	1    3050 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:3
 U 1 1 5E820FF4
-P 2700 2350
-F 0 "MX2:3" H 2800 2250 39  0000 C CNN
-F 1 "1" H 2800 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2075 2325 60  0001 C CNN
-F 3 "" H 2075 2325 60  0001 C CNN
-	1    2700 2350
+P 3200 7250
+F 0 "MX2:3" H 3300 7150 39  0000 C CNN
+F 1 "1" H 3300 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2575 7225 60  0001 C CNN
+F 3 "" H 2575 7225 60  0001 C CNN
+	1    3200 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D31
 U 1 1 5E821006
-P 3050 1350
-F 0 "D31" V 3000 1450 39  0000 L CNN
-F 1 "1N4148" V 3050 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 1350 50  0001 C CNN
-F 3 "~" V 3050 1350 50  0001 C CNN
-	1    3050 1350
-	0    1    1    0   
+P 3400 6450
+F 0 "D31" V 3350 6550 39  0000 L CNN
+F 1 "1N4148" V 3400 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3400 6450 50  0001 C CNN
+F 3 "~" V 3400 6450 50  0001 C CNN
+	1    3400 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:0
 U 1 1 5E82100C
-P 3000 1600
-F 0 "MX3:0" H 3100 1500 39  0000 C CNN
-F 1 "F2" H 3100 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2375 1575 60  0001 C CNN
-F 3 "" H 2375 1575 60  0001 C CNN
-	1    3000 1600
+P 3550 6500
+F 0 "MX3:0" H 3650 6400 39  0000 C CNN
+F 1 "F2" H 3650 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2925 6475 60  0001 C CNN
+F 3 "" H 2925 6475 60  0001 C CNN
+	1    3550 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D32
 U 1 1 5E821012
-P 3050 2100
-F 0 "D32" V 3000 2200 39  0000 L CNN
-F 1 "1N4148" V 3050 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 2100 50  0001 C CNN
-F 3 "~" V 3050 2100 50  0001 C CNN
-	1    3050 2100
-	0    1    1    0   
+P 3400 7200
+F 0 "D32" V 3350 7300 39  0000 L CNN
+F 1 "1N4148" V 3400 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3400 7200 50  0001 C CNN
+F 3 "~" V 3400 7200 50  0001 C CNN
+	1    3400 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:2
 U 1 1 5E821018
-P 3000 2350
-F 0 "MX3:2" H 3100 2250 39  0000 C CNN
-F 1 "2" H 3100 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2375 2325 60  0001 C CNN
-F 3 "" H 2375 2325 60  0001 C CNN
-	1    3000 2350
+P 3550 7250
+F 0 "MX3:2" H 3650 7150 39  0000 C CNN
+F 1 "2" H 3650 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2925 7225 60  0001 C CNN
+F 3 "" H 2925 7225 60  0001 C CNN
+	1    3550 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D33
 U 1 1 5E82101E
-P 3050 2850
-F 0 "D33" V 3000 2950 39  0000 L CNN
-F 1 "1N4148" V 3050 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 2850 50  0001 C CNN
-F 3 "~" V 3050 2850 50  0001 C CNN
-	1    3050 2850
-	0    1    1    0   
+P 3050 7950
+F 0 "D33" V 3000 8050 39  0000 L CNN
+F 1 "1N4148" V 3050 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 7950 50  0001 C CNN
+F 3 "~" V 3050 7950 50  0001 C CNN
+	1    3050 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D37
 U 1 1 5E82104E
-P 3350 1350
-F 0 "D37" V 3300 1450 39  0000 L CNN
-F 1 "1N4148" V 3350 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3350 1350 50  0001 C CNN
-F 3 "~" V 3350 1350 50  0001 C CNN
-	1    3350 1350
-	0    1    1    0   
+P 3750 6450
+F 0 "D37" V 3700 6550 39  0000 L CNN
+F 1 "1N4148" V 3750 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3750 6450 50  0001 C CNN
+F 3 "~" V 3750 6450 50  0001 C CNN
+	1    3750 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:1
 U 1 1 5E821054
-P 3300 1600
-F 0 "MX3:1" H 3400 1500 39  0000 C CNN
-F 1 "F3" H 3400 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2675 1575 60  0001 C CNN
-F 3 "" H 2675 1575 60  0001 C CNN
-	1    3300 1600
+P 3900 6500
+F 0 "MX3:1" H 4000 6400 39  0000 C CNN
+F 1 "F3" H 4000 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 6475 60  0001 C CNN
+F 3 "" H 3275 6475 60  0001 C CNN
+	1    3900 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D38
 U 1 1 5E82105A
-P 3350 2100
-F 0 "D38" V 3300 2200 39  0000 L CNN
-F 1 "1N4148" V 3350 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3350 2100 50  0001 C CNN
-F 3 "~" V 3350 2100 50  0001 C CNN
-	1    3350 2100
-	0    1    1    0   
+P 3750 7200
+F 0 "D38" V 3700 7300 39  0000 L CNN
+F 1 "1N4148" V 3750 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3750 7200 50  0001 C CNN
+F 3 "~" V 3750 7200 50  0001 C CNN
+	1    3750 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:3
 U 1 1 5E821060
-P 3300 2350
-F 0 "MX3:3" H 3400 2250 39  0000 C CNN
-F 1 "3" H 3400 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2675 2325 60  0001 C CNN
-F 3 "" H 2675 2325 60  0001 C CNN
-	1    3300 2350
+P 3900 7250
+F 0 "MX3:3" H 4000 7150 39  0000 C CNN
+F 1 "3" H 4000 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 7225 60  0001 C CNN
+F 3 "" H 3275 7225 60  0001 C CNN
+	1    3900 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D39
 U 1 1 5E821066
-P 3350 2850
-F 0 "D39" V 3300 2950 39  0000 L CNN
-F 1 "1N4148" V 3350 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3350 2850 50  0001 C CNN
-F 3 "~" V 3350 2850 50  0001 C CNN
-	1    3350 2850
-	0    1    1    0   
+P 3400 7950
+F 0 "D39" V 3350 8050 39  0000 L CNN
+F 1 "1N4148" V 3400 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3400 7950 50  0001 C CNN
+F 3 "~" V 3400 7950 50  0001 C CNN
+	1    3400 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D43
 U 1 1 5E821096
-P 3650 1350
-F 0 "D43" V 3600 1450 39  0000 L CNN
-F 1 "1N4148" V 3650 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3650 1350 50  0001 C CNN
-F 3 "~" V 3650 1350 50  0001 C CNN
-	1    3650 1350
-	0    1    1    0   
+P 4100 6450
+F 0 "D43" V 4050 6550 39  0000 L CNN
+F 1 "1N4148" V 4100 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4100 6450 50  0001 C CNN
+F 3 "~" V 4100 6450 50  0001 C CNN
+	1    4100 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:0
 U 1 1 5E82109C
-P 3600 1600
-F 0 "MX4:0" H 3700 1500 39  0000 C CNN
-F 1 "F4" H 3700 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2975 1575 60  0001 C CNN
-F 3 "" H 2975 1575 60  0001 C CNN
-	1    3600 1600
+P 4250 6500
+F 0 "MX4:0" H 4350 6400 39  0000 C CNN
+F 1 "F4" H 4350 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3625 6475 60  0001 C CNN
+F 3 "" H 3625 6475 60  0001 C CNN
+	1    4250 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D44
 U 1 1 5E8210A2
-P 3650 2100
-F 0 "D44" V 3600 2200 39  0000 L CNN
-F 1 "1N4148" V 3650 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3650 2100 50  0001 C CNN
-F 3 "~" V 3650 2100 50  0001 C CNN
-	1    3650 2100
-	0    1    1    0   
+P 4100 7200
+F 0 "D44" V 4050 7300 39  0000 L CNN
+F 1 "1N4148" V 4100 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4100 7200 50  0001 C CNN
+F 3 "~" V 4100 7200 50  0001 C CNN
+	1    4100 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:2
 U 1 1 5E8210A8
-P 3600 2350
-F 0 "MX4:2" H 3700 2250 39  0000 C CNN
-F 1 "4" H 3700 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2975 2325 60  0001 C CNN
-F 3 "" H 2975 2325 60  0001 C CNN
-	1    3600 2350
+P 4250 7250
+F 0 "MX4:2" H 4350 7150 39  0000 C CNN
+F 1 "4" H 4350 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3625 7225 60  0001 C CNN
+F 3 "" H 3625 7225 60  0001 C CNN
+	1    4250 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D45
 U 1 1 5E8210AE
-P 3650 2850
-F 0 "D45" V 3600 2950 39  0000 L CNN
-F 1 "1N4148" V 3650 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3650 2850 50  0001 C CNN
-F 3 "~" V 3650 2850 50  0001 C CNN
-	1    3650 2850
-	0    1    1    0   
+P 3750 7950
+F 0 "D45" V 3700 8050 39  0000 L CNN
+F 1 "1N4148" V 3750 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3750 7950 50  0001 C CNN
+F 3 "~" V 3750 7950 50  0001 C CNN
+	1    3750 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D48
 U 1 1 5E8210D2
-P 3950 1350
-F 0 "D48" V 3900 1450 39  0000 L CNN
-F 1 "1N4148" V 3950 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3950 1350 50  0001 C CNN
-F 3 "~" V 3950 1350 50  0001 C CNN
-	1    3950 1350
-	0    1    1    0   
+P 4450 6450
+F 0 "D48" V 4400 6550 39  0000 L CNN
+F 1 "1N4148" V 4450 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4450 6450 50  0001 C CNN
+F 3 "~" V 4450 6450 50  0001 C CNN
+	1    4450 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:1
 U 1 1 5E8210D8
-P 3900 1600
-F 0 "MX4:1" H 4000 1500 39  0000 C CNN
-F 1 "F5" H 4000 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 1575 60  0001 C CNN
-F 3 "" H 3275 1575 60  0001 C CNN
-	1    3900 1600
+P 4600 6500
+F 0 "MX4:1" H 4700 6400 39  0000 C CNN
+F 1 "F5" H 4700 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3975 6475 60  0001 C CNN
+F 3 "" H 3975 6475 60  0001 C CNN
+	1    4600 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D49
 U 1 1 5E8210DE
-P 3950 2100
-F 0 "D49" V 3900 2200 39  0000 L CNN
-F 1 "1N4148" V 3950 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3950 2100 50  0001 C CNN
-F 3 "~" V 3950 2100 50  0001 C CNN
-	1    3950 2100
-	0    1    1    0   
+P 4450 7200
+F 0 "D49" V 4400 7300 39  0000 L CNN
+F 1 "1N4148" V 4450 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4450 7200 50  0001 C CNN
+F 3 "~" V 4450 7200 50  0001 C CNN
+	1    4450 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:3
 U 1 1 5E8210E4
-P 3900 2350
-F 0 "MX4:3" H 4000 2250 39  0000 C CNN
-F 1 "5" H 4000 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 2325 60  0001 C CNN
-F 3 "" H 3275 2325 60  0001 C CNN
-	1    3900 2350
+P 4600 7250
+F 0 "MX4:3" H 4700 7150 39  0000 C CNN
+F 1 "5" H 4700 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3975 7225 60  0001 C CNN
+F 3 "" H 3975 7225 60  0001 C CNN
+	1    4600 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D50
 U 1 1 5E8210EA
-P 3950 2850
-F 0 "D50" V 3900 2950 39  0000 L CNN
-F 1 "1N4148" V 3950 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3950 2850 50  0001 C CNN
-F 3 "~" V 3950 2850 50  0001 C CNN
-	1    3950 2850
-	0    1    1    0   
+P 4100 7950
+F 0 "D50" V 4050 8050 39  0000 L CNN
+F 1 "1N4148" V 4100 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4100 7950 50  0001 C CNN
+F 3 "~" V 4100 7950 50  0001 C CNN
+	1    4100 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D53
 U 1 1 5E82110E
-P 4250 1350
-F 0 "D53" V 4200 1450 39  0000 L CNN
-F 1 "1N4148" V 4250 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4250 1350 50  0001 C CNN
-F 3 "~" V 4250 1350 50  0001 C CNN
-	1    4250 1350
-	0    1    1    0   
+P 4800 6450
+F 0 "D53" V 4750 6550 39  0000 L CNN
+F 1 "1N4148" V 4800 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4800 6450 50  0001 C CNN
+F 3 "~" V 4800 6450 50  0001 C CNN
+	1    4800 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:0
 U 1 1 5E821114
-P 4200 1600
-F 0 "MX5:0" H 4300 1500 39  0000 C CNN
-F 1 "F6" H 4300 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3575 1575 60  0001 C CNN
-F 3 "" H 3575 1575 60  0001 C CNN
-	1    4200 1600
+P 4950 6500
+F 0 "MX5:0" H 5050 6400 39  0000 C CNN
+F 1 "F6" H 5050 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4325 6475 60  0001 C CNN
+F 3 "" H 4325 6475 60  0001 C CNN
+	1    4950 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D54
 U 1 1 5E82111A
-P 4250 2100
-F 0 "D54" V 4200 2200 39  0000 L CNN
-F 1 "1N4148" V 4250 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4250 2100 50  0001 C CNN
-F 3 "~" V 4250 2100 50  0001 C CNN
-	1    4250 2100
-	0    1    1    0   
+P 4800 7200
+F 0 "D54" V 4750 7300 39  0000 L CNN
+F 1 "1N4148" V 4800 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4800 7200 50  0001 C CNN
+F 3 "~" V 4800 7200 50  0001 C CNN
+	1    4800 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:2
 U 1 1 5E821120
-P 4200 2350
-F 0 "MX5:2" H 4300 2250 39  0000 C CNN
-F 1 "6" H 4300 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3575 2325 60  0001 C CNN
-F 3 "" H 3575 2325 60  0001 C CNN
-	1    4200 2350
+P 4950 7250
+F 0 "MX5:2" H 5050 7150 39  0000 C CNN
+F 1 "6" H 5050 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4325 7225 60  0001 C CNN
+F 3 "" H 4325 7225 60  0001 C CNN
+	1    4950 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D55
-U 1 1 5E821126
-P 4250 2850
-F 0 "D55" V 4200 2950 39  0000 L CNN
-F 1 "1N4148" V 4250 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4250 2850 50  0001 C CNN
-F 3 "~" V 4250 2850 50  0001 C CNN
-	1    4250 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Small D58
 U 1 1 5E82114A
-P 4550 1350
-F 0 "D58" V 4500 1450 39  0000 L CNN
-F 1 "1N4148" V 4550 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4550 1350 50  0001 C CNN
-F 3 "~" V 4550 1350 50  0001 C CNN
-	1    4550 1350
-	0    1    1    0   
+P 5150 6450
+F 0 "D58" V 5100 6550 39  0000 L CNN
+F 1 "1N4148" V 5150 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 6450 50  0001 C CNN
+F 3 "~" V 5150 6450 50  0001 C CNN
+	1    5150 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:1
 U 1 1 5E821150
-P 4500 1600
-F 0 "MX5:1" H 4600 1500 39  0000 C CNN
-F 1 "F7" H 4600 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3875 1575 60  0001 C CNN
-F 3 "" H 3875 1575 60  0001 C CNN
-	1    4500 1600
+P 5300 6500
+F 0 "MX5:1" H 5400 6400 39  0000 C CNN
+F 1 "F7" H 5400 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4675 6475 60  0001 C CNN
+F 3 "" H 4675 6475 60  0001 C CNN
+	1    5300 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D59
 U 1 1 5E821156
-P 4550 2100
-F 0 "D59" V 4500 2200 39  0000 L CNN
-F 1 "1N4148" V 4550 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4550 2100 50  0001 C CNN
-F 3 "~" V 4550 2100 50  0001 C CNN
-	1    4550 2100
-	0    1    1    0   
+P 5150 7200
+F 0 "D59" V 5100 7300 39  0000 L CNN
+F 1 "1N4148" V 5150 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 7200 50  0001 C CNN
+F 3 "~" V 5150 7200 50  0001 C CNN
+	1    5150 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:3
 U 1 1 5E82115C
-P 4500 2350
-F 0 "MX5:3" H 4600 2250 39  0000 C CNN
-F 1 "7" H 4600 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3875 2325 60  0001 C CNN
-F 3 "" H 3875 2325 60  0001 C CNN
-	1    4500 2350
+P 5300 7250
+F 0 "MX5:3" H 5400 7150 39  0000 C CNN
+F 1 "7" H 5400 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4675 7225 60  0001 C CNN
+F 3 "" H 4675 7225 60  0001 C CNN
+	1    5300 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D60
 U 1 1 5E821162
-P 4550 2850
-F 0 "D60" V 4500 2950 39  0000 L CNN
-F 1 "1N4148" V 4550 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4550 2850 50  0001 C CNN
-F 3 "~" V 4550 2850 50  0001 C CNN
-	1    4550 2850
-	0    1    1    0   
+P 4800 7950
+F 0 "D60" V 4750 8050 39  0000 L CNN
+F 1 "1N4148" V 4800 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4800 7950 50  0001 C CNN
+F 3 "~" V 4800 7950 50  0001 C CNN
+	1    4800 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D63
 U 1 1 5E821186
-P 4850 1350
-F 0 "D63" V 4800 1450 39  0000 L CNN
-F 1 "1N4148" V 4850 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4850 1350 50  0001 C CNN
-F 3 "~" V 4850 1350 50  0001 C CNN
-	1    4850 1350
-	0    1    1    0   
+P 5500 6450
+F 0 "D63" V 5450 6550 39  0000 L CNN
+F 1 "1N4148" V 5500 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5500 6450 50  0001 C CNN
+F 3 "~" V 5500 6450 50  0001 C CNN
+	1    5500 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:0
 U 1 1 5E82118C
-P 4800 1600
-F 0 "MX6:0" H 4900 1500 39  0000 C CNN
-F 1 "F8" H 4900 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4175 1575 60  0001 C CNN
-F 3 "" H 4175 1575 60  0001 C CNN
-	1    4800 1600
+P 5650 6500
+F 0 "MX6:0" H 5750 6400 39  0000 C CNN
+F 1 "F8" H 5750 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5025 6475 60  0001 C CNN
+F 3 "" H 5025 6475 60  0001 C CNN
+	1    5650 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D64
 U 1 1 5E821192
-P 4850 2100
-F 0 "D64" V 4800 2200 39  0000 L CNN
-F 1 "1N4148" V 4850 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4850 2100 50  0001 C CNN
-F 3 "~" V 4850 2100 50  0001 C CNN
-	1    4850 2100
-	0    1    1    0   
+P 5500 7200
+F 0 "D64" V 5450 7300 39  0000 L CNN
+F 1 "1N4148" V 5500 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5500 7200 50  0001 C CNN
+F 3 "~" V 5500 7200 50  0001 C CNN
+	1    5500 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:2
 U 1 1 5E821198
-P 4800 2350
-F 0 "MX6:2" H 4900 2250 39  0000 C CNN
-F 1 "8" H 4900 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4175 2325 60  0001 C CNN
-F 3 "" H 4175 2325 60  0001 C CNN
-	1    4800 2350
+P 5650 7250
+F 0 "MX6:2" H 5750 7150 39  0000 C CNN
+F 1 "8" H 5750 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5025 7225 60  0001 C CNN
+F 3 "" H 5025 7225 60  0001 C CNN
+	1    5650 7250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D65
 U 1 1 5E82119E
-P 4850 2850
-F 0 "D65" V 4800 2950 39  0000 L CNN
-F 1 "1N4148" V 4850 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4850 2850 50  0001 C CNN
-F 3 "~" V 4850 2850 50  0001 C CNN
-	1    4850 2850
-	0    1    1    0   
+P 5150 7950
+F 0 "D65" V 5100 8050 39  0000 L CNN
+F 1 "1N4148" V 5150 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 7950 50  0001 C CNN
+F 3 "~" V 5150 7950 50  0001 C CNN
+	1    5150 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D68
 U 1 1 5E8211C2
-P 5150 1350
-F 0 "D68" V 5100 1450 39  0000 L CNN
-F 1 "1N4148" V 5150 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 1350 50  0001 C CNN
-F 3 "~" V 5150 1350 50  0001 C CNN
-	1    5150 1350
-	0    1    1    0   
+P 5850 6450
+F 0 "D68" V 5800 6550 39  0000 L CNN
+F 1 "1N4148" V 5850 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5850 6450 50  0001 C CNN
+F 3 "~" V 5850 6450 50  0001 C CNN
+	1    5850 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:1
 U 1 1 5E8211C8
-P 5100 1600
-F 0 "MX6:1" H 5200 1500 39  0000 C CNN
-F 1 "F9" H 5200 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4475 1575 60  0001 C CNN
-F 3 "" H 4475 1575 60  0001 C CNN
-	1    5100 1600
+P 6000 6500
+F 0 "MX6:1" H 6100 6400 39  0000 C CNN
+F 1 "F9" H 6100 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 6475 60  0001 C CNN
+F 3 "" H 5375 6475 60  0001 C CNN
+	1    6000 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D69
 U 1 1 5E8211CE
-P 5150 2100
-F 0 "D69" V 5100 2200 39  0000 L CNN
-F 1 "1N4148" V 5150 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 2100 50  0001 C CNN
-F 3 "~" V 5150 2100 50  0001 C CNN
-	1    5150 2100
-	0    1    1    0   
+P 5850 7200
+F 0 "D69" V 5800 7300 39  0000 L CNN
+F 1 "1N4148" V 5850 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5850 7200 50  0001 C CNN
+F 3 "~" V 5850 7200 50  0001 C CNN
+	1    5850 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:3
 U 1 1 5E8211D4
-P 5100 2350
-F 0 "MX6:3" H 5200 2250 39  0000 C CNN
-F 1 "9" H 5200 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4475 2325 60  0001 C CNN
-F 3 "" H 4475 2325 60  0001 C CNN
-	1    5100 2350
+P 6000 7250
+F 0 "MX6:3" H 6100 7150 39  0000 C CNN
+F 1 "9" H 6100 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 7225 60  0001 C CNN
+F 3 "" H 5375 7225 60  0001 C CNN
+	1    6000 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D70
-U 1 1 5E8211DA
-P 5150 2850
-F 0 "D70" V 5100 2950 39  0000 L CNN
-F 1 "1N4148" V 5150 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 2850 50  0001 C CNN
-F 3 "~" V 5150 2850 50  0001 C CNN
-	1    5150 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Small D73
 U 1 1 5E8211FE
-P 5450 1350
-F 0 "D73" V 5400 1450 39  0000 L CNN
-F 1 "1N4148" V 5450 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5450 1350 50  0001 C CNN
-F 3 "~" V 5450 1350 50  0001 C CNN
-	1    5450 1350
-	0    1    1    0   
+P 6200 6450
+F 0 "D73" V 6150 6550 39  0000 L CNN
+F 1 "1N4148" V 6200 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6200 6450 50  0001 C CNN
+F 3 "~" V 6200 6450 50  0001 C CNN
+	1    6200 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:0
 U 1 1 5E821204
-P 5400 1600
-F 0 "MX7:0" H 5500 1500 39  0000 C CNN
-F 1 "F10" H 5500 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4775 1575 60  0001 C CNN
-F 3 "" H 4775 1575 60  0001 C CNN
-	1    5400 1600
+P 6350 6500
+F 0 "MX7:0" H 6450 6400 39  0000 C CNN
+F 1 "F10" H 6450 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5725 6475 60  0001 C CNN
+F 3 "" H 5725 6475 60  0001 C CNN
+	1    6350 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D74
 U 1 1 5E82120A
-P 5450 2100
-F 0 "D74" V 5400 2200 39  0000 L CNN
-F 1 "1N4148" V 5450 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5450 2100 50  0001 C CNN
-F 3 "~" V 5450 2100 50  0001 C CNN
-	1    5450 2100
-	0    1    1    0   
+P 6200 7200
+F 0 "D74" V 6150 7300 39  0000 L CNN
+F 1 "1N4148" V 6200 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6200 7200 50  0001 C CNN
+F 3 "~" V 6200 7200 50  0001 C CNN
+	1    6200 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:2
 U 1 1 5E821210
-P 5400 2350
-F 0 "MX7:2" H 5500 2250 39  0000 C CNN
-F 1 "0" H 5500 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4775 2325 60  0001 C CNN
-F 3 "" H 4775 2325 60  0001 C CNN
-	1    5400 2350
+P 6350 7250
+F 0 "MX7:2" H 6450 7150 39  0000 C CNN
+F 1 "0" H 6450 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5725 7225 60  0001 C CNN
+F 3 "" H 5725 7225 60  0001 C CNN
+	1    6350 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D75
-U 1 1 5E821216
-P 5450 2850
-F 0 "D75" V 5400 2950 39  0000 L CNN
-F 1 "1N4148" V 5450 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5450 2850 50  0001 C CNN
-F 3 "~" V 5450 2850 50  0001 C CNN
-	1    5450 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Small D79
 U 1 1 5E821240
-P 5750 1350
-F 0 "D79" V 5700 1450 39  0000 L CNN
-F 1 "1N4148" V 5750 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5750 1350 50  0001 C CNN
-F 3 "~" V 5750 1350 50  0001 C CNN
-	1    5750 1350
-	0    1    1    0   
+P 6550 6450
+F 0 "D79" V 6500 6550 39  0000 L CNN
+F 1 "1N4148" V 6550 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6550 6450 50  0001 C CNN
+F 3 "~" V 6550 6450 50  0001 C CNN
+	1    6550 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:1
 U 1 1 5E821246
-P 5700 1600
-F 0 "MX7:1" H 5800 1500 39  0000 C CNN
-F 1 "F11" H 5800 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5075 1575 60  0001 C CNN
-F 3 "" H 5075 1575 60  0001 C CNN
-	1    5700 1600
+P 6700 6500
+F 0 "MX7:1" H 6800 6400 39  0000 C CNN
+F 1 "F11" H 6800 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6075 6475 60  0001 C CNN
+F 3 "" H 6075 6475 60  0001 C CNN
+	1    6700 6500
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D80
-U 1 1 5E82124C
-P 5750 2100
-F 0 "D80" V 5700 2200 39  0000 L CNN
-F 1 "1N4148" V 5750 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5750 2100 50  0001 C CNN
-F 3 "~" V 5750 2100 50  0001 C CNN
-	1    5750 2100
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:3
 U 1 1 5E821252
-P 5700 2350
-F 0 "MX7:3" H 5800 2250 39  0000 C CNN
-F 1 "-" H 5800 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5075 2325 60  0001 C CNN
-F 3 "" H 5075 2325 60  0001 C CNN
-	1    5700 2350
+P 6700 7250
+F 0 "MX7:3" H 6800 7150 39  0000 C CNN
+F 1 "-" H 6800 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6075 7225 60  0001 C CNN
+F 3 "" H 6075 7225 60  0001 C CNN
+	1    6700 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D81
-U 1 1 5E821258
-P 5750 2850
-F 0 "D81" V 5700 2950 39  0000 L CNN
-F 1 "1N4148" V 5750 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5750 2850 50  0001 C CNN
-F 3 "~" V 5750 2850 50  0001 C CNN
-	1    5750 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Small D85
 U 1 1 5E82128E
-P 6050 1350
-F 0 "D85" V 6000 1450 39  0000 L CNN
-F 1 "1N4148" V 6050 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6050 1350 50  0001 C CNN
-F 3 "~" V 6050 1350 50  0001 C CNN
-	1    6050 1350
-	0    1    1    0   
+P 6900 6450
+F 0 "D85" V 6850 6550 39  0000 L CNN
+F 1 "1N4148" V 6900 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6900 6450 50  0001 C CNN
+F 3 "~" V 6900 6450 50  0001 C CNN
+	1    6900 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:0
 U 1 1 5E821294
-P 6000 1600
-F 0 "MX8:0" H 6100 1500 39  0000 C CNN
-F 1 "F12" H 6100 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 1575 60  0001 C CNN
-F 3 "" H 5375 1575 60  0001 C CNN
-	1    6000 1600
+P 7050 6500
+F 0 "MX8:0" H 7150 6400 39  0000 C CNN
+F 1 "F12" H 7150 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6425 6475 60  0001 C CNN
+F 3 "" H 6425 6475 60  0001 C CNN
+	1    7050 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D86
 U 1 1 5E82129A
-P 6050 2100
-F 0 "D86" V 6000 2200 39  0000 L CNN
-F 1 "1N4148" V 6050 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6050 2100 50  0001 C CNN
-F 3 "~" V 6050 2100 50  0001 C CNN
-	1    6050 2100
-	0    1    1    0   
+P 6900 7200
+F 0 "D86" V 6850 7300 39  0000 L CNN
+F 1 "1N4148" V 6900 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6900 7200 50  0001 C CNN
+F 3 "~" V 6900 7200 50  0001 C CNN
+	1    6900 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:2
 U 1 1 5E8212A0
-P 6000 2350
-F 0 "MX8:2" H 6100 2250 39  0000 C CNN
-F 1 "+" H 6100 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 2325 60  0001 C CNN
-F 3 "" H 5375 2325 60  0001 C CNN
-	1    6000 2350
+P 7050 7250
+F 0 "MX8:2" H 7150 7150 39  0000 C CNN
+F 1 "+" H 7150 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6425 7225 60  0001 C CNN
+F 3 "" H 6425 7225 60  0001 C CNN
+	1    7050 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D87
-U 1 1 5E8212A6
-P 6050 2850
-F 0 "D87" V 6000 2950 39  0000 L CNN
-F 1 "1N4148" V 6050 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6050 2850 50  0001 C CNN
-F 3 "~" V 6050 2850 50  0001 C CNN
-	1    6050 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Small D91
 U 1 1 5E8212D6
-P 6350 1350
-F 0 "D91" V 6300 1450 39  0000 L CNN
-F 1 "1N4148" V 6350 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6350 1350 50  0001 C CNN
-F 3 "~" V 6350 1350 50  0001 C CNN
-	1    6350 1350
-	0    1    1    0   
+P 7250 6450
+F 0 "D91" V 7200 6550 39  0000 L CNN
+F 1 "1N4148" V 7250 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7250 6450 50  0001 C CNN
+F 3 "~" V 7250 6450 50  0001 C CNN
+	1    7250 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:1
 U 1 1 5E8212DC
-P 6300 1600
-F 0 "MX8:1" H 6400 1500 39  0000 C CNN
-F 1 "PrtSc" H 6400 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5675 1575 60  0001 C CNN
-F 3 "" H 5675 1575 60  0001 C CNN
-	1    6300 1600
+P 7400 6500
+F 0 "MX8:1" H 7500 6400 39  0000 C CNN
+F 1 "PrtSc" H 7500 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6775 6475 60  0001 C CNN
+F 3 "" H 6775 6475 60  0001 C CNN
+	1    7400 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D92
 U 1 1 5E8212E2
-P 6350 2100
-F 0 "D92" V 6300 2200 39  0000 L CNN
-F 1 "1N4148" V 6350 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6350 2100 50  0001 C CNN
-F 3 "~" V 6350 2100 50  0001 C CNN
-	1    6350 2100
-	0    1    1    0   
+P 7250 7200
+F 0 "D92" V 7200 7300 39  0000 L CNN
+F 1 "1N4148" V 7250 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7250 7200 50  0001 C CNN
+F 3 "~" V 7250 7200 50  0001 C CNN
+	1    7250 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:3
 U 1 1 5E8212E8
-P 6300 2350
-F 0 "MX8:3" H 6400 2250 39  0000 C CNN
-F 1 "Backspace 2u" H 6400 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5675 2325 60  0001 C CNN
-F 3 "" H 5675 2325 60  0001 C CNN
-	1    6300 2350
+P 7400 7250
+F 0 "MX8:3" H 7500 7150 39  0000 C CNN
+F 1 "Backspace 2u" H 7500 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6775 7225 60  0001 C CNN
+F 3 "" H 6775 7225 60  0001 C CNN
+	1    7400 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D93
-U 1 1 5E8212EE
-P 6350 2850
-F 0 "D93" V 6300 2950 39  0000 L CNN
-F 1 "1N4148" V 6350 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6350 2850 50  0001 C CNN
-F 3 "~" V 6350 2850 50  0001 C CNN
-	1    6350 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Small D96
 U 1 1 5E821312
-P 6650 1350
-F 0 "D96" V 6600 1450 39  0000 L CNN
-F 1 "1N4148" V 6650 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6650 1350 50  0001 C CNN
-F 3 "~" V 6650 1350 50  0001 C CNN
-	1    6650 1350
-	0    1    1    0   
+P 7600 6450
+F 0 "D96" V 7550 6550 39  0000 L CNN
+F 1 "1N4148" V 7600 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7600 6450 50  0001 C CNN
+F 3 "~" V 7600 6450 50  0001 C CNN
+	1    7600 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:0
 U 1 1 5E821318
-P 6600 1600
-F 0 "MX9:0" H 6700 1500 39  0000 C CNN
-F 1 "Scroll Lock" H 6700 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5975 1575 60  0001 C CNN
-F 3 "" H 5975 1575 60  0001 C CNN
-	1    6600 1600
+P 7750 6500
+F 0 "MX9:0" H 7850 6400 39  0000 C CNN
+F 1 "Scroll Lock" H 7850 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 7125 6475 60  0001 C CNN
+F 3 "" H 7125 6475 60  0001 C CNN
+	1    7750 6500
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D97
-U 1 1 5E82131E
-P 6650 2850
-F 0 "D97" V 6600 2950 39  0000 L CNN
-F 1 "1N4148" V 6650 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6650 2850 50  0001 C CNN
-F 3 "~" V 6650 2850 50  0001 C CNN
-	1    6650 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Small D100
 U 1 1 5E821342
-P 6950 1350
-F 0 "D100" V 6900 1450 39  0000 L CNN
-F 1 "1N4148" V 6950 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6950 1350 50  0001 C CNN
-F 3 "~" V 6950 1350 50  0001 C CNN
-	1    6950 1350
-	0    1    1    0   
+P 7950 6450
+F 0 "D100" V 7900 6550 39  0000 L CNN
+F 1 "1N4148" V 7950 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7950 6450 50  0001 C CNN
+F 3 "~" V 7950 6450 50  0001 C CNN
+	1    7950 6450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:1
 U 1 1 5E821348
-P 6900 1600
-F 0 "MX9:1" H 7000 1500 39  0000 C CNN
-F 1 "Pause" H 7000 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 6275 1575 60  0001 C CNN
-F 3 "" H 6275 1575 60  0001 C CNN
-	1    6900 1600
+P 8100 6500
+F 0 "MX9:1" H 8200 6400 39  0000 C CNN
+F 1 "Pause" H 8200 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 7475 6475 60  0001 C CNN
+F 3 "" H 7475 6475 60  0001 C CNN
+	1    8100 6500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D101
 U 1 1 5E82134E
-P 6950 2100
-F 0 "D101" V 6900 2200 39  0000 L CNN
-F 1 "1N4148" V 6950 2150 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6950 2100 50  0001 C CNN
-F 3 "~" V 6950 2100 50  0001 C CNN
-	1    6950 2100
-	0    1    1    0   
+P 7600 7200
+F 0 "D101" V 7550 7300 39  0000 L CNN
+F 1 "1N4148" V 7600 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7600 7200 50  0001 C CNN
+F 3 "~" V 7600 7200 50  0001 C CNN
+	1    7600 7200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:2
 U 1 1 5E821354
-P 6900 2350
-F 0 "MX9:2" H 7000 2250 39  0000 C CNN
-F 1 "Insert" H 7000 2200 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 6275 2325 60  0001 C CNN
-F 3 "" H 6275 2325 60  0001 C CNN
-	1    6900 2350
+P 7750 7250
+F 0 "MX9:2" H 7850 7150 39  0000 C CNN
+F 1 "Insert" H 7850 7100 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 7125 7225 60  0001 C CNN
+F 3 "" H 7125 7225 60  0001 C CNN
+	1    7750 7250
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:D_Small D102
-U 1 1 5E82135A
-P 6950 2850
-F 0 "D102" V 6900 2950 39  0000 L CNN
-F 1 "1N4148" V 6950 2900 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6950 2850 50  0001 C CNN
-F 3 "~" V 6950 2850 50  0001 C CNN
-	1    6950 2850
-	0    1    1    0   
-$EndComp
-Text GLabel 3750 900  1    50   Input ~ 0
+Text GLabel 4400 5800 1    50   Input ~ 0
 Col4
-Text GLabel 4350 900  1    50   Input ~ 0
+Text GLabel 5100 5800 1    50   Input ~ 0
 Col5
-Text GLabel 4950 900  1    50   Input ~ 0
+Text GLabel 5800 5800 1    50   Input ~ 0
 Col6
-Text GLabel 5550 900  1    50   Input ~ 0
+Text GLabel 6500 5800 1    50   Input ~ 0
 Col7
-Text GLabel 6150 900  1    50   Input ~ 0
-Col8
-Text GLabel 6750 900  1    50   Input ~ 0
+Text GLabel 7900 5800 1    50   Input ~ 0
 Col9
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:11
 U 1 1 5E821384
-P 6900 5050
-F 0 "MX9:11" H 7000 4950 39  0000 C CNN
-F 1 "RightArrow" H 7000 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 6275 5025 60  0001 C CNN
-F 3 "" H 6275 5025 60  0001 C CNN
-	1    6900 5050
+P 5300 9950
+F 0 "MX9:11" H 5400 9850 39  0000 C CNN
+F 1 "RightArrow" H 5400 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4675 9925 60  0001 C CNN
+F 3 "" H 4675 9925 60  0001 C CNN
+	1    5300 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D105
 U 1 1 5E82137E
-P 6950 4800
-F 0 "D105" V 6900 4900 39  0000 L CNN
-F 1 "1N4148" V 6950 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6950 4800 50  0001 C CNN
-F 3 "~" V 6950 4800 50  0001 C CNN
-	1    6950 4800
-	0    1    1    0   
+P 5150 9900
+F 0 "D105" V 5100 10000 39  0000 L CNN
+F 1 "1N4148" V 5150 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 9900 50  0001 C CNN
+F 3 "~" V 5150 9900 50  0001 C CNN
+	1    5150 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:9
 U 1 1 5E821378
-P 6900 4400
-F 0 "MX9:9" H 7000 4300 39  0000 C CNN
-F 1 "Page Down" H 7000 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 6275 4375 60  0001 C CNN
-F 3 "" H 6275 4375 60  0001 C CNN
-	1    6900 4400
+P 7400 9300
+F 0 "MX9:9" H 7500 9200 39  0000 C CNN
+F 1 "Page Down" H 7500 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6775 9275 60  0001 C CNN
+F 3 "" H 6775 9275 60  0001 C CNN
+	1    7400 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D104
 U 1 1 5E821372
-P 6950 4150
-F 0 "D104" V 6900 4250 39  0000 L CNN
-F 1 "1N4148" V 6950 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6950 4150 50  0001 C CNN
-F 3 "~" V 6950 4150 50  0001 C CNN
-	1    6950 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Small D103
-U 1 1 5E821366
-P 6950 3500
-F 0 "D103" V 6900 3600 39  0000 L CNN
-F 1 "1N4148" V 6950 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6950 3500 50  0001 C CNN
-F 3 "~" V 6950 3500 50  0001 C CNN
-	1    6950 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX9:4
-U 1 1 5E821360
-P 6900 3100
-F 0 "MX9:4" H 7000 3000 39  0000 C CNN
-F 1 "Delete" H 7000 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 6275 3075 60  0001 C CNN
-F 3 "" H 6275 3075 60  0001 C CNN
-	1    6900 3100
-	-1   0    0    1   
+P 7250 9250
+F 0 "D104" V 7200 9350 39  0000 L CNN
+F 1 "1N4148" V 7250 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7250 9250 50  0001 C CNN
+F 3 "~" V 7250 9250 50  0001 C CNN
+	1    7250 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D99
 U 1 1 5E821336
-P 6650 4800
-F 0 "D99" V 6600 4900 39  0000 L CNN
-F 1 "1N4148" V 6650 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6650 4800 50  0001 C CNN
-F 3 "~" V 6650 4800 50  0001 C CNN
-	1    6650 4800
-	0    1    1    0   
+P 4800 9900
+F 0 "D99" V 4750 10000 39  0000 L CNN
+F 1 "1N4148" V 4800 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4800 9900 50  0001 C CNN
+F 3 "~" V 4800 9900 50  0001 C CNN
+	1    4800 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:8
 U 1 1 5E821330
-P 6600 4400
-F 0 "MX9:8" H 6700 4300 39  0000 C CNN
-F 1 "UpArrow" H 6700 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5975 4375 60  0001 C CNN
-F 3 "" H 5975 4375 60  0001 C CNN
-	1    6600 4400
+P 7050 9300
+F 0 "MX9:8" H 7150 9200 39  0000 C CNN
+F 1 "UpArrow" H 7150 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6425 9275 60  0001 C CNN
+F 3 "" H 6425 9275 60  0001 C CNN
+	1    7050 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D98
 U 1 1 5E82132A
-P 6650 4150
-F 0 "D98" V 6600 4250 39  0000 L CNN
-F 1 "1N4148" V 6650 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6650 4150 50  0001 C CNN
-F 3 "~" V 6650 4150 50  0001 C CNN
-	1    6650 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX9:5
-U 1 1 5E821324
-P 6600 3100
-F 0 "MX9:5" H 6700 3000 39  0000 C CNN
-F 1 "| 1.5u" H 6700 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5975 3075 60  0001 C CNN
-F 3 "" H 5975 3075 60  0001 C CNN
-	1    6600 3100
-	-1   0    0    1   
+P 6900 9250
+F 0 "D98" V 6850 9350 39  0000 L CNN
+F 1 "1N4148" V 6900 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6900 9250 50  0001 C CNN
+F 3 "~" V 6900 9250 50  0001 C CNN
+	1    6900 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:11
 U 1 1 5E82130C
-P 6300 5050
-F 0 "MX8:11" H 6400 4950 39  0000 C CNN
-F 1 "LeftArrow" H 6400 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5675 5025 60  0001 C CNN
-F 3 "" H 5675 5025 60  0001 C CNN
-	1    6300 5050
+P 4600 9950
+F 0 "MX8:11" H 4700 9850 39  0000 C CNN
+F 1 "LeftArrow" H 4700 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3975 9925 60  0001 C CNN
+F 3 "" H 3975 9925 60  0001 C CNN
+	1    4600 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D95
 U 1 1 5E821306
-P 6350 4800
-F 0 "D95" V 6300 4900 39  0000 L CNN
-F 1 "1N4148" V 6350 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6350 4800 50  0001 C CNN
-F 3 "~" V 6350 4800 50  0001 C CNN
-	1    6350 4800
-	0    1    1    0   
+P 4450 9900
+F 0 "D95" V 4400 10000 39  0000 L CNN
+F 1 "1N4148" V 4450 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4450 9900 50  0001 C CNN
+F 3 "~" V 4450 9900 50  0001 C CNN
+	1    4450 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:7
 U 1 1 5E821300
-P 6300 3750
-F 0 "MX8:7" H 6400 3650 39  0000 C CNN
-F 1 "RightEnter 2.25u" H 6400 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5675 3725 60  0001 C CNN
-F 3 "" H 5675 3725 60  0001 C CNN
-	1    6300 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D94
-U 1 1 5E8212FA
-P 6350 3500
-F 0 "D94" V 6300 3600 39  0000 L CNN
-F 1 "1N4148" V 6350 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6350 3500 50  0001 C CNN
-F 3 "~" V 6350 3500 50  0001 C CNN
-	1    6350 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX8:4
-U 1 1 5E8212F4
-P 6300 3100
-F 0 "MX8:4" H 6400 3000 39  0000 C CNN
-F 1 "}" H 6400 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5675 3075 60  0001 C CNN
-F 3 "" H 5675 3075 60  0001 C CNN
-	1    6300 3100
+P 6700 8650
+F 0 "MX8:7" H 6800 8550 39  0000 C CNN
+F 1 "RightEnter 2.25u" H 6800 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6075 8625 60  0001 C CNN
+F 3 "" H 6075 8625 60  0001 C CNN
+	1    6700 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:10
 U 1 1 5E8212D0
-P 6000 5050
-F 0 "MX8:10" H 6100 4950 39  0000 C CNN
-F 1 "Ctrl" H 6100 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 5025 60  0001 C CNN
-F 3 "" H 5375 5025 60  0001 C CNN
-	1    6000 5050
+P 4250 9950
+F 0 "MX8:10" H 4350 9850 39  0000 C CNN
+F 1 "Ctrl" H 4350 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3625 9925 60  0001 C CNN
+F 3 "" H 3625 9925 60  0001 C CNN
+	1    4250 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D90
 U 1 1 5E8212CA
-P 6050 4800
-F 0 "D90" V 6000 4900 39  0000 L CNN
-F 1 "1N4148" V 6050 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6050 4800 50  0001 C CNN
-F 3 "~" V 6050 4800 50  0001 C CNN
-	1    6050 4800
-	0    1    1    0   
+P 4100 9900
+F 0 "D90" V 4050 10000 39  0000 L CNN
+F 1 "1N4148" V 4100 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4100 9900 50  0001 C CNN
+F 3 "~" V 4100 9900 50  0001 C CNN
+	1    4100 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:9
 U 1 1 5E8212C4
-P 6000 4400
-F 0 "MX8:9" H 6100 4300 39  0000 C CNN
-F 1 "RightShift 1.75u" H 6100 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 4375 60  0001 C CNN
-F 3 "" H 5375 4375 60  0001 C CNN
-	1    6000 4400
+P 6700 9300
+F 0 "MX8:9" H 6800 9200 39  0000 C CNN
+F 1 "RightShift 1.75u" H 6800 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6075 9275 60  0001 C CNN
+F 3 "" H 6075 9275 60  0001 C CNN
+	1    6700 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D89
 U 1 1 5E8212BE
-P 6050 4150
-F 0 "D89" V 6000 4250 39  0000 L CNN
-F 1 "1N4148" V 6050 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6050 4150 50  0001 C CNN
-F 3 "~" V 6050 4150 50  0001 C CNN
-	1    6050 4150
-	0    1    1    0   
+P 6550 9250
+F 0 "D89" V 6500 9350 39  0000 L CNN
+F 1 "1N4148" V 6550 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6550 9250 50  0001 C CNN
+F 3 "~" V 6550 9250 50  0001 C CNN
+	1    6550 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8:6
 U 1 1 5E8212B8
-P 6000 3750
-F 0 "MX8:6" H 6100 3650 39  0000 C CNN
-F 1 "\"" H 6100 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 3725 60  0001 C CNN
-F 3 "" H 5375 3725 60  0001 C CNN
-	1    6000 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D88
-U 1 1 5E8212B2
-P 6050 3500
-F 0 "D88" V 6000 3600 39  0000 L CNN
-F 1 "1N4148" V 6050 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6050 3500 50  0001 C CNN
-F 3 "~" V 6050 3500 50  0001 C CNN
-	1    6050 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX8:5
-U 1 1 5E8212AC
-P 6000 3100
-F 0 "MX8:5" H 6100 3000 39  0000 C CNN
-F 1 "{" H 6100 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 3075 60  0001 C CNN
-F 3 "" H 5375 3075 60  0001 C CNN
-	1    6000 3100
+P 6350 8650
+F 0 "MX8:6" H 6450 8550 39  0000 C CNN
+F 1 "\"" H 6450 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5725 8625 60  0001 C CNN
+F 3 "" H 5725 8625 60  0001 C CNN
+	1    6350 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:11
 U 1 1 5E821288
-P 5700 5050
-F 0 "MX7:11" H 5800 4950 39  0000 C CNN
-F 1 "Fn" H 5800 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5075 5025 60  0001 C CNN
-F 3 "" H 5075 5025 60  0001 C CNN
-	1    5700 5050
+P 3900 9950
+F 0 "MX7:11" H 4000 9850 39  0000 C CNN
+F 1 "Fn" H 4000 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 9925 60  0001 C CNN
+F 3 "" H 3275 9925 60  0001 C CNN
+	1    3900 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:10
 U 1 1 5E821282
-P 5400 5050
-F 0 "MX7:10" H 5500 4950 39  0000 C CNN
-F 1 "Alt" H 5500 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4775 5025 60  0001 C CNN
-F 3 "" H 4775 5025 60  0001 C CNN
-	1    5400 5050
+P 3550 9950
+F 0 "MX7:10" H 3650 9850 39  0000 C CNN
+F 1 "Alt" H 3650 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2925 9925 60  0001 C CNN
+F 3 "" H 2925 9925 60  0001 C CNN
+	1    3550 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D84
 U 1 1 5E82127C
-P 5750 4800
-F 0 "D84" V 5700 4900 39  0000 L CNN
-F 1 "1N4148" V 5750 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5750 4800 50  0001 C CNN
-F 3 "~" V 5750 4800 50  0001 C CNN
-	1    5750 4800
-	0    1    1    0   
+P 3750 9900
+F 0 "D84" V 3700 10000 39  0000 L CNN
+F 1 "1N4148" V 3750 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3750 9900 50  0001 C CNN
+F 3 "~" V 3750 9900 50  0001 C CNN
+	1    3750 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:8
 U 1 1 5E821276
-P 5700 4400
-F 0 "MX7:8" H 5800 4300 39  0000 C CNN
-F 1 "?" H 5800 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5075 4375 60  0001 C CNN
-F 3 "" H 5075 4375 60  0001 C CNN
-	1    5700 4400
+P 6350 9300
+F 0 "MX7:8" H 6450 9200 39  0000 C CNN
+F 1 "?" H 6450 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5725 9275 60  0001 C CNN
+F 3 "" H 5725 9275 60  0001 C CNN
+	1    6350 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D83
 U 1 1 5E821270
-P 5750 4150
-F 0 "D83" V 5700 4250 39  0000 L CNN
-F 1 "1N4148" V 5750 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5750 4150 50  0001 C CNN
-F 3 "~" V 5750 4150 50  0001 C CNN
-	1    5750 4150
-	0    1    1    0   
+P 6200 9250
+F 0 "D83" V 6150 9350 39  0000 L CNN
+F 1 "1N4148" V 6200 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6200 9250 50  0001 C CNN
+F 3 "~" V 6200 9250 50  0001 C CNN
+	1    6200 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:7
 U 1 1 5E82126A
-P 5700 3750
-F 0 "MX7:7" H 5800 3650 39  0000 C CNN
-F 1 ":" H 5800 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5075 3725 60  0001 C CNN
-F 3 "" H 5075 3725 60  0001 C CNN
-	1    5700 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D82
-U 1 1 5E821264
-P 5750 3500
-F 0 "D82" V 5700 3600 39  0000 L CNN
-F 1 "1N4148" V 5750 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5750 3500 50  0001 C CNN
-F 3 "~" V 5750 3500 50  0001 C CNN
-	1    5750 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX7:4
-U 1 1 5E82125E
-P 5700 3100
-F 0 "MX7:4" H 5800 3000 39  0000 C CNN
-F 1 "P" H 5800 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5075 3075 60  0001 C CNN
-F 3 "" H 5075 3075 60  0001 C CNN
-	1    5700 3100
+P 6000 8650
+F 0 "MX7:7" H 6100 8550 39  0000 C CNN
+F 1 ":" H 6100 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 8625 60  0001 C CNN
+F 3 "" H 5375 8625 60  0001 C CNN
+	1    6000 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D78
 U 1 1 5E82123A
-P 5450 4800
-F 0 "D78" V 5400 4900 39  0000 L CNN
-F 1 "1N4148" V 5450 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5450 4800 50  0001 C CNN
-F 3 "~" V 5450 4800 50  0001 C CNN
-	1    5450 4800
-	0    1    1    0   
+P 3400 9900
+F 0 "D78" V 3350 10000 39  0000 L CNN
+F 1 "1N4148" V 3400 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3400 9900 50  0001 C CNN
+F 3 "~" V 3400 9900 50  0001 C CNN
+	1    3400 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:9
 U 1 1 5E821234
-P 5400 4400
-F 0 "MX7:9" H 5500 4300 39  0000 C CNN
-F 1 ">" H 5500 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4775 4375 60  0001 C CNN
-F 3 "" H 4775 4375 60  0001 C CNN
-	1    5400 4400
+P 6000 9300
+F 0 "MX7:9" H 6100 9200 39  0000 C CNN
+F 1 ">" H 6100 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 9275 60  0001 C CNN
+F 3 "" H 5375 9275 60  0001 C CNN
+	1    6000 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D77
 U 1 1 5E82122E
-P 5450 4150
-F 0 "D77" V 5400 4250 39  0000 L CNN
-F 1 "1N4148" V 5450 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5450 4150 50  0001 C CNN
-F 3 "~" V 5450 4150 50  0001 C CNN
-	1    5450 4150
-	0    1    1    0   
+P 5850 9250
+F 0 "D77" V 5800 9350 39  0000 L CNN
+F 1 "1N4148" V 5850 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5850 9250 50  0001 C CNN
+F 3 "~" V 5850 9250 50  0001 C CNN
+	1    5850 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX7:6
 U 1 1 5E821228
-P 5400 3750
-F 0 "MX7:6" H 5500 3650 39  0000 C CNN
-F 1 "L" H 5500 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4775 3725 60  0001 C CNN
-F 3 "" H 4775 3725 60  0001 C CNN
-	1    5400 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D76
-U 1 1 5E821222
-P 5450 3500
-F 0 "D76" V 5400 3600 39  0000 L CNN
-F 1 "1N4148" V 5450 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5450 3500 50  0001 C CNN
-F 3 "~" V 5450 3500 50  0001 C CNN
-	1    5450 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX7:5
-U 1 1 5E82121C
-P 5400 3100
-F 0 "MX7:5" H 5500 3000 39  0000 C CNN
-F 1 "O" H 5500 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4775 3075 60  0001 C CNN
-F 3 "" H 4775 3075 60  0001 C CNN
-	1    5400 3100
+P 5650 8650
+F 0 "MX7:6" H 5750 8550 39  0000 C CNN
+F 1 "L" H 5750 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5025 8625 60  0001 C CNN
+F 3 "" H 5025 8625 60  0001 C CNN
+	1    5650 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:8
 U 1 1 5E8211F8
-P 5100 4400
-F 0 "MX6:8" H 5200 4300 39  0000 C CNN
-F 1 "<" H 5200 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4475 4375 60  0001 C CNN
-F 3 "" H 4475 4375 60  0001 C CNN
-	1    5100 4400
+P 5650 9300
+F 0 "MX6:8" H 5750 9200 39  0000 C CNN
+F 1 "<" H 5750 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5025 9275 60  0001 C CNN
+F 3 "" H 5025 9275 60  0001 C CNN
+	1    5650 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D72
 U 1 1 5E8211F2
-P 5150 4150
-F 0 "D72" V 5100 4250 39  0000 L CNN
-F 1 "1N4148" V 5150 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 4150 50  0001 C CNN
-F 3 "~" V 5150 4150 50  0001 C CNN
-	1    5150 4150
-	0    1    1    0   
+P 5500 9250
+F 0 "D72" V 5450 9350 39  0000 L CNN
+F 1 "1N4148" V 5500 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5500 9250 50  0001 C CNN
+F 3 "~" V 5500 9250 50  0001 C CNN
+	1    5500 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:7
 U 1 1 5E8211EC
-P 5100 3750
-F 0 "MX6:7" H 5200 3650 39  0000 C CNN
-F 1 "K" H 5200 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4475 3725 60  0001 C CNN
-F 3 "" H 4475 3725 60  0001 C CNN
-	1    5100 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D71
-U 1 1 5E8211E6
-P 5150 3500
-F 0 "D71" V 5100 3600 39  0000 L CNN
-F 1 "1N4148" V 5150 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 3500 50  0001 C CNN
-F 3 "~" V 5150 3500 50  0001 C CNN
-	1    5150 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX6:4
-U 1 1 5E8211E0
-P 5100 3100
-F 0 "MX6:4" H 5200 3000 39  0000 C CNN
-F 1 "I" H 5200 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4475 3075 60  0001 C CNN
-F 3 "" H 4475 3075 60  0001 C CNN
-	1    5100 3100
+P 5300 8650
+F 0 "MX6:7" H 5400 8550 39  0000 C CNN
+F 1 "K" H 5400 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4675 8625 60  0001 C CNN
+F 3 "" H 4675 8625 60  0001 C CNN
+	1    5300 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:9
 U 1 1 5E8211BC
-P 4800 4400
-F 0 "MX6:9" H 4900 4300 39  0000 C CNN
-F 1 "M" H 4900 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4175 4375 60  0001 C CNN
-F 3 "" H 4175 4375 60  0001 C CNN
-	1    4800 4400
+P 5300 9300
+F 0 "MX6:9" H 5400 9200 39  0000 C CNN
+F 1 "M" H 5400 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4675 9275 60  0001 C CNN
+F 3 "" H 4675 9275 60  0001 C CNN
+	1    5300 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D67
 U 1 1 5E8211B6
-P 4850 4150
-F 0 "D67" V 4800 4250 39  0000 L CNN
-F 1 "1N4148" V 4850 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4850 4150 50  0001 C CNN
-F 3 "~" V 4850 4150 50  0001 C CNN
-	1    4850 4150
-	0    1    1    0   
+P 5150 9250
+F 0 "D67" V 5100 9350 39  0000 L CNN
+F 1 "1N4148" V 5150 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 9250 50  0001 C CNN
+F 3 "~" V 5150 9250 50  0001 C CNN
+	1    5150 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:6
 U 1 1 5E8211B0
-P 4800 3750
-F 0 "MX6:6" H 4900 3650 39  0000 C CNN
-F 1 "J" H 4900 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4175 3725 60  0001 C CNN
-F 3 "" H 4175 3725 60  0001 C CNN
-	1    4800 3750
+P 4950 8650
+F 0 "MX6:6" H 5050 8550 39  0000 C CNN
+F 1 "J" H 5050 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4325 8625 60  0001 C CNN
+F 3 "" H 4325 8625 60  0001 C CNN
+	1    4950 8650
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D66
-U 1 1 5E8211AA
-P 4850 3500
-F 0 "D66" V 4800 3600 39  0000 L CNN
-F 1 "1N4148" V 4850 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4850 3500 50  0001 C CNN
-F 3 "~" V 4850 3500 50  0001 C CNN
-	1    4850 3500
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX6:5
 U 1 1 5E8211A4
-P 4800 3100
-F 0 "MX6:5" H 4900 3000 39  0000 C CNN
-F 1 "U" H 4900 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 4175 3075 60  0001 C CNN
-F 3 "" H 4175 3075 60  0001 C CNN
-	1    4800 3100
+P 5300 8000
+F 0 "MX6:5" H 5400 7900 39  0000 C CNN
+F 1 "U" H 5400 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4675 7975 60  0001 C CNN
+F 3 "" H 4675 7975 60  0001 C CNN
+	1    5300 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:8
 U 1 1 5E821180
-P 4500 4400
-F 0 "MX5:8" H 4600 4300 39  0000 C CNN
-F 1 "N" H 4600 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3875 4375 60  0001 C CNN
-F 3 "" H 3875 4375 60  0001 C CNN
-	1    4500 4400
+P 4950 9300
+F 0 "MX5:8" H 5050 9200 39  0000 C CNN
+F 1 "N" H 5050 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4325 9275 60  0001 C CNN
+F 3 "" H 4325 9275 60  0001 C CNN
+	1    4950 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D62
 U 1 1 5E82117A
-P 4550 4150
-F 0 "D62" V 4500 4250 39  0000 L CNN
-F 1 "1N4148" V 4550 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4550 4150 50  0001 C CNN
-F 3 "~" V 4550 4150 50  0001 C CNN
-	1    4550 4150
-	0    1    1    0   
+P 4800 9250
+F 0 "D62" V 4750 9350 39  0000 L CNN
+F 1 "1N4148" V 4800 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4800 9250 50  0001 C CNN
+F 3 "~" V 4800 9250 50  0001 C CNN
+	1    4800 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:7
 U 1 1 5E821174
-P 4500 3750
-F 0 "MX5:7" H 4600 3650 39  0000 C CNN
-F 1 "H" H 4600 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3875 3725 60  0001 C CNN
-F 3 "" H 3875 3725 60  0001 C CNN
-	1    4500 3750
+P 4600 8650
+F 0 "MX5:7" H 4700 8550 39  0000 C CNN
+F 1 "H" H 4700 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3975 8625 60  0001 C CNN
+F 3 "" H 3975 8625 60  0001 C CNN
+	1    4600 8650
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D61
-U 1 1 5E82116E
-P 4550 3500
-F 0 "D61" V 4500 3600 39  0000 L CNN
-F 1 "1N4148" V 4550 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4550 3500 50  0001 C CNN
-F 3 "~" V 4550 3500 50  0001 C CNN
-	1    4550 3500
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:4
 U 1 1 5E821168
-P 4500 3100
-F 0 "MX5:4" H 4600 3000 39  0000 C CNN
-F 1 "Y" H 4600 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3875 3075 60  0001 C CNN
-F 3 "" H 3875 3075 60  0001 C CNN
-	1    4500 3100
+P 4950 8000
+F 0 "MX5:4" H 5050 7900 39  0000 C CNN
+F 1 "Y" H 5050 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4325 7975 60  0001 C CNN
+F 3 "" H 4325 7975 60  0001 C CNN
+	1    4950 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:9
 U 1 1 5E821144
-P 4200 4400
-F 0 "MX5:9" H 4300 4300 39  0000 C CNN
-F 1 "B" H 4300 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3575 4375 60  0001 C CNN
-F 3 "" H 3575 4375 60  0001 C CNN
-	1    4200 4400
+P 4600 9300
+F 0 "MX5:9" H 4700 9200 39  0000 C CNN
+F 1 "B" H 4700 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3975 9275 60  0001 C CNN
+F 3 "" H 3975 9275 60  0001 C CNN
+	1    4600 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D57
 U 1 1 5E82113E
-P 4250 4150
-F 0 "D57" V 4200 4250 39  0000 L CNN
-F 1 "1N4148" V 4250 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4250 4150 50  0001 C CNN
-F 3 "~" V 4250 4150 50  0001 C CNN
-	1    4250 4150
-	0    1    1    0   
+P 4450 9250
+F 0 "D57" V 4400 9350 39  0000 L CNN
+F 1 "1N4148" V 4450 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4450 9250 50  0001 C CNN
+F 3 "~" V 4450 9250 50  0001 C CNN
+	1    4450 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:6
 U 1 1 5E821138
-P 4200 3750
-F 0 "MX5:6" H 4300 3650 39  0000 C CNN
-F 1 "G" H 4300 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3575 3725 60  0001 C CNN
-F 3 "" H 3575 3725 60  0001 C CNN
-	1    4200 3750
+P 4250 8650
+F 0 "MX5:6" H 4350 8550 39  0000 C CNN
+F 1 "G" H 4350 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3625 8625 60  0001 C CNN
+F 3 "" H 3625 8625 60  0001 C CNN
+	1    4250 8650
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D56
-U 1 1 5E821132
-P 4250 3500
-F 0 "D56" V 4200 3600 39  0000 L CNN
-F 1 "1N4148" V 4250 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4250 3500 50  0001 C CNN
-F 3 "~" V 4250 3500 50  0001 C CNN
-	1    4250 3500
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5:5
 U 1 1 5E82112C
-P 4200 3100
-F 0 "MX5:5" H 4300 3000 39  0000 C CNN
-F 1 "T" H 4300 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3575 3075 60  0001 C CNN
-F 3 "" H 3575 3075 60  0001 C CNN
-	1    4200 3100
+P 4600 8000
+F 0 "MX5:5" H 4700 7900 39  0000 C CNN
+F 1 "T" H 4700 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3975 7975 60  0001 C CNN
+F 3 "" H 3975 7975 60  0001 C CNN
+	1    4600 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:8
 U 1 1 5E821108
-P 3900 4400
-F 0 "MX4:8" H 4000 4300 39  0000 C CNN
-F 1 "V" H 4000 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 4375 60  0001 C CNN
-F 3 "" H 3275 4375 60  0001 C CNN
-	1    3900 4400
+P 4250 9300
+F 0 "MX4:8" H 4350 9200 39  0000 C CNN
+F 1 "V" H 4350 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3625 9275 60  0001 C CNN
+F 3 "" H 3625 9275 60  0001 C CNN
+	1    4250 9300
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D52
-U 1 1 5E821102
-P 3950 4150
-F 0 "D52" V 3900 4250 39  0000 L CNN
-F 1 "1N4148" V 3950 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3950 4150 50  0001 C CNN
-F 3 "~" V 3950 4150 50  0001 C CNN
-	1    3950 4150
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:7
 U 1 1 5E8210FC
-P 3900 3750
-F 0 "MX4:7" H 4000 3650 39  0000 C CNN
-F 1 "F" H 4000 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 3725 60  0001 C CNN
-F 3 "" H 3275 3725 60  0001 C CNN
-	1    3900 3750
+P 3900 8650
+F 0 "MX4:7" H 4000 8550 39  0000 C CNN
+F 1 "F" H 4000 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 8625 60  0001 C CNN
+F 3 "" H 3275 8625 60  0001 C CNN
+	1    3900 8650
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D51
-U 1 1 5E8210F6
-P 3950 3500
-F 0 "D51" V 3900 3600 39  0000 L CNN
-F 1 "1N4148" V 3950 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3950 3500 50  0001 C CNN
-F 3 "~" V 3950 3500 50  0001 C CNN
-	1    3950 3500
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:4
 U 1 1 5E8210F0
-P 3900 3100
-F 0 "MX4:4" H 4000 3000 39  0000 C CNN
-F 1 "R" H 4000 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 3075 60  0001 C CNN
-F 3 "" H 3275 3075 60  0001 C CNN
-	1    3900 3100
+P 4250 8000
+F 0 "MX4:4" H 4350 7900 39  0000 C CNN
+F 1 "R" H 4350 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3625 7975 60  0001 C CNN
+F 3 "" H 3625 7975 60  0001 C CNN
+	1    4250 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:9
 U 1 1 5E8210CC
-P 3600 4400
-F 0 "MX4:9" H 3700 4300 39  0000 C CNN
-F 1 "C" H 3700 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2975 4375 60  0001 C CNN
-F 3 "" H 2975 4375 60  0001 C CNN
-	1    3600 4400
+P 3900 9300
+F 0 "MX4:9" H 4000 9200 39  0000 C CNN
+F 1 "C" H 4000 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 9275 60  0001 C CNN
+F 3 "" H 3275 9275 60  0001 C CNN
+	1    3900 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D47
 U 1 1 5E8210C6
-P 3650 4150
-F 0 "D47" V 3600 4250 39  0000 L CNN
-F 1 "1N4148" V 3650 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3650 4150 50  0001 C CNN
-F 3 "~" V 3650 4150 50  0001 C CNN
-	1    3650 4150
-	0    1    1    0   
+P 3750 9250
+F 0 "D47" V 3700 9350 39  0000 L CNN
+F 1 "1N4148" V 3750 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3750 9250 50  0001 C CNN
+F 3 "~" V 3750 9250 50  0001 C CNN
+	1    3750 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:6
 U 1 1 5E8210C0
-P 3600 3750
-F 0 "MX4:6" H 3700 3650 39  0000 C CNN
-F 1 "D" H 3700 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2975 3725 60  0001 C CNN
-F 3 "" H 2975 3725 60  0001 C CNN
-	1    3600 3750
+P 3550 8650
+F 0 "MX4:6" H 3650 8550 39  0000 C CNN
+F 1 "D" H 3650 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2925 8625 60  0001 C CNN
+F 3 "" H 2925 8625 60  0001 C CNN
+	1    3550 8650
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D46
-U 1 1 5E8210BA
-P 3650 3500
-F 0 "D46" V 3600 3600 39  0000 L CNN
-F 1 "1N4148" V 3650 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3650 3500 50  0001 C CNN
-F 3 "~" V 3650 3500 50  0001 C CNN
-	1    3650 3500
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4:5
 U 1 1 5E8210B4
-P 3600 3100
-F 0 "MX4:5" H 3700 3000 39  0000 C CNN
-F 1 "E" H 3700 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2975 3075 60  0001 C CNN
-F 3 "" H 2975 3075 60  0001 C CNN
-	1    3600 3100
-	-1   0    0    1   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX3:11
-U 1 1 5E821090
-P 3300 5050
-F 0 "MX3:11" H 3400 4950 39  0000 C CNN
-F 1 "Spacebar 6u" H 3400 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2675 5025 60  0001 C CNN
-F 3 "" H 2675 5025 60  0001 C CNN
-	1    3300 5050
+P 3900 8000
+F 0 "MX4:5" H 4000 7900 39  0000 C CNN
+F 1 "E" H 4000 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 3275 7975 60  0001 C CNN
+F 3 "" H 3275 7975 60  0001 C CNN
+	1    3900 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D42
 U 1 1 5E82108A
-P 3350 4800
-F 0 "D42" V 3300 4900 39  0000 L CNN
-F 1 "1N4148" V 3350 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3350 4800 50  0001 C CNN
-F 3 "~" V 3350 4800 50  0001 C CNN
-	1    3350 4800
-	0    1    1    0   
+P 3050 9900
+F 0 "D42" V 3000 10000 39  0000 L CNN
+F 1 "1N4148" V 3050 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 9900 50  0001 C CNN
+F 3 "~" V 3050 9900 50  0001 C CNN
+	1    3050 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:8
 U 1 1 5E821084
-P 3300 4400
-F 0 "MX3:8" H 3400 4300 39  0000 C CNN
-F 1 "X" H 3400 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2675 4375 60  0001 C CNN
-F 3 "" H 2675 4375 60  0001 C CNN
-	1    3300 4400
+P 3550 9300
+F 0 "MX3:8" H 3650 9200 39  0000 C CNN
+F 1 "X" H 3650 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2925 9275 60  0001 C CNN
+F 3 "" H 2925 9275 60  0001 C CNN
+	1    3550 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D41
 U 1 1 5E82107E
-P 3350 4150
-F 0 "D41" V 3300 4250 39  0000 L CNN
-F 1 "1N4148" V 3350 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3350 4150 50  0001 C CNN
-F 3 "~" V 3350 4150 50  0001 C CNN
-	1    3350 4150
-	0    1    1    0   
+P 3400 9250
+F 0 "D41" V 3350 9350 39  0000 L CNN
+F 1 "1N4148" V 3400 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3400 9250 50  0001 C CNN
+F 3 "~" V 3400 9250 50  0001 C CNN
+	1    3400 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:7
 U 1 1 5E821078
-P 3300 3750
-F 0 "MX3:7" H 3400 3650 39  0000 C CNN
-F 1 "S" H 3400 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2675 3725 60  0001 C CNN
-F 3 "" H 2675 3725 60  0001 C CNN
-	1    3300 3750
+P 3200 8650
+F 0 "MX3:7" H 3300 8550 39  0000 C CNN
+F 1 "S" H 3300 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2575 8625 60  0001 C CNN
+F 3 "" H 2575 8625 60  0001 C CNN
+	1    3200 8650
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D40
-U 1 1 5E821072
-P 3350 3500
-F 0 "D40" V 3300 3600 39  0000 L CNN
-F 1 "1N4148" V 3350 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3350 3500 50  0001 C CNN
-F 3 "~" V 3350 3500 50  0001 C CNN
-	1    3350 3500
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:4
 U 1 1 5E82106C
-P 3300 3100
-F 0 "MX3:4" H 3400 3000 39  0000 C CNN
-F 1 "W" H 3400 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2675 3075 60  0001 C CNN
-F 3 "" H 2675 3075 60  0001 C CNN
-	1    3300 3100
-	-1   0    0    1   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX3:10
-U 1 1 5E821048
-P 3000 5050
-F 0 "MX3:10" H 3100 4950 39  0000 C CNN
-F 1 "Alt 1.25u" H 3100 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2375 5025 60  0001 C CNN
-F 3 "" H 2375 5025 60  0001 C CNN
-	1    3000 5050
+P 3550 8000
+F 0 "MX3:4" H 3650 7900 39  0000 C CNN
+F 1 "W" H 3650 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2925 7975 60  0001 C CNN
+F 3 "" H 2925 7975 60  0001 C CNN
+	1    3550 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D36
 U 1 1 5E821042
-P 3050 4800
-F 0 "D36" V 3000 4900 39  0000 L CNN
-F 1 "1N4148" V 3050 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 4800 50  0001 C CNN
-F 3 "~" V 3050 4800 50  0001 C CNN
-	1    3050 4800
-	0    1    1    0   
+P 2700 9900
+F 0 "D36" V 2650 10000 39  0000 L CNN
+F 1 "1N4148" V 2700 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2700 9900 50  0001 C CNN
+F 3 "~" V 2700 9900 50  0001 C CNN
+	1    2700 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:9
 U 1 1 5E82103C
-P 3000 4400
-F 0 "MX3:9" H 3100 4300 39  0000 C CNN
-F 1 "Z" H 3100 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2375 4375 60  0001 C CNN
-F 3 "" H 2375 4375 60  0001 C CNN
-	1    3000 4400
+P 3200 9300
+F 0 "MX3:9" H 3300 9200 39  0000 C CNN
+F 1 "Z" H 3300 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2575 9275 60  0001 C CNN
+F 3 "" H 2575 9275 60  0001 C CNN
+	1    3200 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D35
 U 1 1 5E821036
-P 3050 4150
-F 0 "D35" V 3000 4250 39  0000 L CNN
-F 1 "1N4148" V 3050 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 4150 50  0001 C CNN
-F 3 "~" V 3050 4150 50  0001 C CNN
-	1    3050 4150
-	0    1    1    0   
+P 3050 9250
+F 0 "D35" V 3000 9350 39  0000 L CNN
+F 1 "1N4148" V 3050 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 9250 50  0001 C CNN
+F 3 "~" V 3050 9250 50  0001 C CNN
+	1    3050 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:6
 U 1 1 5E821030
-P 3000 3750
-F 0 "MX3:6" H 3100 3650 39  0000 C CNN
-F 1 "A" H 3100 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2375 3725 60  0001 C CNN
-F 3 "" H 2375 3725 60  0001 C CNN
-	1    3000 3750
+P 2850 8650
+F 0 "MX3:6" H 2950 8550 39  0000 C CNN
+F 1 "A" H 2950 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2225 8625 60  0001 C CNN
+F 3 "" H 2225 8625 60  0001 C CNN
+	1    2850 8650
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small D34
-U 1 1 5E82102A
-P 3050 3500
-F 0 "D34" V 3000 3600 39  0000 L CNN
-F 1 "1N4148" V 3050 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 3500 50  0001 C CNN
-F 3 "~" V 3050 3500 50  0001 C CNN
-	1    3050 3500
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3:5
 U 1 1 5E821024
-P 3000 3100
-F 0 "MX3:5" H 3100 3000 39  0000 C CNN
-F 1 "Q" H 3100 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2375 3075 60  0001 C CNN
-F 3 "" H 2375 3075 60  0001 C CNN
-	1    3000 3100
+P 3200 8000
+F 0 "MX3:5" H 3300 7900 39  0000 C CNN
+F 1 "Q" H 3300 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2575 7975 60  0001 C CNN
+F 3 "" H 2575 7975 60  0001 C CNN
+	1    3200 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:11
 U 1 1 5E821000
-P 2700 5050
-F 0 "MX2:11" H 2800 4950 39  0000 C CNN
-F 1 "Win 1.25u" H 2800 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 2075 5025 60  0001 C CNN
-F 3 "" H 2075 5025 60  0001 C CNN
-	1    2700 5050
+P 2500 9950
+F 0 "MX2:11" H 2600 9850 39  0000 C CNN
+F 1 "Win 1.25u" H 2600 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1875 9925 60  0001 C CNN
+F 3 "" H 1875 9925 60  0001 C CNN
+	1    2500 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D30
 U 1 1 5E820FFA
-P 2750 4800
-F 0 "D30" V 2700 4900 39  0000 L CNN
-F 1 "1N4148" V 2750 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2750 4800 50  0001 C CNN
-F 3 "~" V 2750 4800 50  0001 C CNN
-	1    2750 4800
-	0    1    1    0   
+P 2350 9900
+F 0 "D30" V 2300 10000 39  0000 L CNN
+F 1 "1N4148" V 2350 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2350 9900 50  0001 C CNN
+F 3 "~" V 2350 9900 50  0001 C CNN
+	1    2350 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:10
 U 1 1 5E820FDC
-P 2400 5050
-F 0 "MX2:10" H 2500 4950 39  0000 C CNN
-F 1 "Ctrl 1.25u" H 2500 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1775 5025 60  0001 C CNN
-F 3 "" H 1775 5025 60  0001 C CNN
-	1    2400 5050
+P 2150 9950
+F 0 "MX2:10" H 2250 9850 39  0000 C CNN
+F 1 "Ctrl 1.25u" H 2250 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1525 9925 60  0001 C CNN
+F 3 "" H 1525 9925 60  0001 C CNN
+	1    2150 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D27
 U 1 1 5E820FD6
-P 2450 4800
-F 0 "D27" V 2400 4900 39  0000 L CNN
-F 1 "1N4148" V 2450 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2450 4800 50  0001 C CNN
-F 3 "~" V 2450 4800 50  0001 C CNN
-	1    2450 4800
-	0    1    1    0   
+P 2000 9900
+F 0 "D27" V 1950 10000 39  0000 L CNN
+F 1 "1N4148" V 2000 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2000 9900 50  0001 C CNN
+F 3 "~" V 2000 9900 50  0001 C CNN
+	1    2000 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:8
 U 1 1 5E820FD0
-P 2400 4400
-F 0 "MX2:8" H 2500 4300 39  0000 C CNN
-F 1 "LeftShift 2.25u" H 2500 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1775 4375 60  0001 C CNN
-F 3 "" H 1775 4375 60  0001 C CNN
-	1    2400 4400
+P 2850 9300
+F 0 "MX2:8" H 2950 9200 39  0000 C CNN
+F 1 "LeftShift 2.25u" H 2950 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2225 9275 60  0001 C CNN
+F 3 "" H 2225 9275 60  0001 C CNN
+	1    2850 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D26
 U 1 1 5E820FCA
-P 2450 4150
-F 0 "D26" V 2400 4250 39  0000 L CNN
-F 1 "1N4148" V 2450 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2450 4150 50  0001 C CNN
-F 3 "~" V 2450 4150 50  0001 C CNN
-	1    2450 4150
-	0    1    1    0   
+P 2700 9250
+F 0 "D26" V 2650 9350 39  0000 L CNN
+F 1 "1N4148" V 2700 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2700 9250 50  0001 C CNN
+F 3 "~" V 2700 9250 50  0001 C CNN
+	1    2700 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:6
 U 1 1 5E820FC4
-P 2400 3750
-F 0 "MX2:6" H 2500 3650 39  0000 C CNN
-F 1 "Caps Lock 1.75u" H 2500 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1775 3725 60  0001 C CNN
-F 3 "" H 1775 3725 60  0001 C CNN
-	1    2400 3750
+P 2500 8650
+F 0 "MX2:6" H 2600 8550 39  0000 C CNN
+F 1 "Caps Lock 1.75u" H 2600 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1875 8625 60  0001 C CNN
+F 3 "" H 1875 8625 60  0001 C CNN
+	1    2500 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D25
 U 1 1 5E820FBE
-P 2450 3500
-F 0 "D25" V 2400 3600 39  0000 L CNN
-F 1 "1N4148" V 2450 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2450 3500 50  0001 C CNN
-F 3 "~" V 2450 3500 50  0001 C CNN
-	1    2450 3500
-	0    1    1    0   
+P 2350 8600
+F 0 "D25" V 2300 8700 39  0000 L CNN
+F 1 "1N4148" V 2350 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2350 8600 50  0001 C CNN
+F 3 "~" V 2350 8600 50  0001 C CNN
+	1    2350 8600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2:4
 U 1 1 5E820FB8
-P 2400 3100
-F 0 "MX2:4" H 2500 3000 39  0000 C CNN
-F 1 "Tab 1.5u" H 2500 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1775 3075 60  0001 C CNN
-F 3 "" H 1775 3075 60  0001 C CNN
-	1    2400 3100
+P 2850 8000
+F 0 "MX2:4" H 2950 7900 39  0000 C CNN
+F 1 "Tab 1.5u" H 2950 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2225 7975 60  0001 C CNN
+F 3 "" H 2225 7975 60  0001 C CNN
+	1    2850 8000
 	-1   0    0    1   
 $EndComp
-Text GLabel 900  2600 0    50   Input ~ 0
+Text GLabel 1150 7500 0    50   Input ~ 0
 Row5
-Text GLabel 900  2500 0    50   Input ~ 0
+Text GLabel 1150 7400 0    50   Input ~ 0
 Row4
-Text GLabel 900  1850 0    50   Input ~ 0
+Text GLabel 1150 6750 0    50   Input ~ 0
 Row3
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:11
 U 1 1 5E820F42
-P 1800 5050
-F 0 "MX1:11" H 1900 4950 39  0000 C CNN
-F 1 ". / Del" H 1900 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 5025 60  0001 C CNN
-F 3 "" H 1175 5025 60  0001 C CNN
-	1    1800 5050
+P 1800 9950
+F 0 "MX1:11" H 1900 9850 39  0000 C CNN
+F 1 ". / Del" H 1900 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 9925 60  0001 C CNN
+F 3 "" H 1175 9925 60  0001 C CNN
+	1    1800 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D17
 U 1 1 5E820F3C
-P 1850 4800
-F 0 "D17" V 1800 4900 39  0000 L CNN
-F 1 "1N4148" V 1850 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1850 4800 50  0001 C CNN
-F 3 "~" V 1850 4800 50  0001 C CNN
-	1    1850 4800
-	0    1    1    0   
+P 1650 9900
+F 0 "D17" V 1600 10000 39  0000 L CNN
+F 1 "1N4148" V 1650 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1650 9900 50  0001 C CNN
+F 3 "~" V 1650 9900 50  0001 C CNN
+	1    1650 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:10
 U 1 1 5E820F36
-P 1200 5050
-F 0 "MX0:10" H 1300 4950 39  0000 C CNN
-F 1 "0 / Ins" H 1300 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 575 5025 60  0001 C CNN
-F 3 "" H 575 5025 60  0001 C CNN
-	1    1200 5050
+P 1450 9950
+F 0 "MX0:10" H 1550 9850 39  0000 C CNN
+F 1 "0 / Ins" H 1550 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 825 9925 60  0001 C CNN
+F 3 "" H 825 9925 60  0001 C CNN
+	1    1450 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D6
 U 1 1 5E820F30
-P 1250 4800
-F 0 "D6" V 1200 4900 39  0000 L CNN
-F 1 "1N4148" V 1250 4850 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1250 4800 50  0001 C CNN
-F 3 "~" V 1250 4800 50  0001 C CNN
-	1    1250 4800
-	0    1    1    0   
+P 1300 9900
+F 0 "D6" V 1250 10000 39  0000 L CNN
+F 1 "1N4148" V 1300 9950 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1300 9900 50  0001 C CNN
+F 3 "~" V 1300 9900 50  0001 C CNN
+	1    1300 9900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:9
 U 1 1 5E820F2A
-P 2100 4400
-F 0 "MX1:9" H 2200 4300 39  0000 C CNN
-F 1 "Enter" H 2200 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1475 4375 60  0001 C CNN
-F 3 "" H 1475 4375 60  0001 C CNN
-	1    2100 4400
+P 2500 9300
+F 0 "MX1:9" H 2600 9200 39  0000 C CNN
+F 1 "Enter" H 2600 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1875 9275 60  0001 C CNN
+F 3 "" H 1875 9275 60  0001 C CNN
+	1    2500 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D21
 U 1 1 5E820F24
-P 2150 4150
-F 0 "D21" V 2100 4250 39  0000 L CNN
-F 1 "1N4148" V 2150 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2150 4150 50  0001 C CNN
-F 3 "~" V 2150 4150 50  0001 C CNN
-	1    2150 4150
-	0    1    1    0   
+P 2350 9250
+F 0 "D21" V 2300 9350 39  0000 L CNN
+F 1 "1N4148" V 2350 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2350 9250 50  0001 C CNN
+F 3 "~" V 2350 9250 50  0001 C CNN
+	1    2350 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:8
 U 1 1 5E820F1E
-P 1800 4400
-F 0 "MX1:8" H 1900 4300 39  0000 C CNN
-F 1 "3 / PgDn" H 1900 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 4375 60  0001 C CNN
-F 3 "" H 1175 4375 60  0001 C CNN
-	1    1800 4400
+P 2150 9300
+F 0 "MX1:8" H 2250 9200 39  0000 C CNN
+F 1 "3 / PgDn" H 2250 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1525 9275 60  0001 C CNN
+F 3 "" H 1525 9275 60  0001 C CNN
+	1    2150 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D16
 U 1 1 5E820F18
-P 1850 4150
-F 0 "D16" V 1800 4250 39  0000 L CNN
-F 1 "1N4148" V 1850 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1850 4150 50  0001 C CNN
-F 3 "~" V 1850 4150 50  0001 C CNN
-	1    1850 4150
-	0    1    1    0   
+P 2000 9250
+F 0 "D16" V 1950 9350 39  0000 L CNN
+F 1 "1N4148" V 2000 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2000 9250 50  0001 C CNN
+F 3 "~" V 2000 9250 50  0001 C CNN
+	1    2000 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:9
 U 1 1 5E820F12
-P 1500 4400
-F 0 "MX0:9" H 1600 4300 39  0000 C CNN
-F 1 "2 / DownArrow" H 1600 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 875 4375 60  0001 C CNN
-F 3 "" H 875 4375 60  0001 C CNN
-	1    1500 4400
+P 1800 9300
+F 0 "MX0:9" H 1900 9200 39  0000 C CNN
+F 1 "2 / DownArrow" H 1900 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 9275 60  0001 C CNN
+F 3 "" H 1175 9275 60  0001 C CNN
+	1    1800 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D11
 U 1 1 5E820F0C
-P 1550 4150
-F 0 "D11" V 1500 4250 39  0000 L CNN
-F 1 "1N4148" V 1550 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1550 4150 50  0001 C CNN
-F 3 "~" V 1550 4150 50  0001 C CNN
-	1    1550 4150
-	0    1    1    0   
+P 1650 9250
+F 0 "D11" V 1600 9350 39  0000 L CNN
+F 1 "1N4148" V 1650 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1650 9250 50  0001 C CNN
+F 3 "~" V 1650 9250 50  0001 C CNN
+	1    1650 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:8
 U 1 1 5E820F06
-P 1200 4400
-F 0 "MX0:8" H 1300 4300 39  0000 C CNN
-F 1 "1 / End" H 1300 4250 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 575 4375 60  0001 C CNN
-F 3 "" H 575 4375 60  0001 C CNN
-	1    1200 4400
+P 1450 9300
+F 0 "MX0:8" H 1550 9200 39  0000 C CNN
+F 1 "1 / End" H 1550 9150 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 825 9275 60  0001 C CNN
+F 3 "" H 825 9275 60  0001 C CNN
+	1    1450 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D5
 U 1 1 5E820F00
-P 1250 4150
-F 0 "D5" V 1200 4250 39  0000 L CNN
-F 1 "1N4148" V 1250 4200 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1250 4150 50  0001 C CNN
-F 3 "~" V 1250 4150 50  0001 C CNN
-	1    1250 4150
-	0    1    1    0   
+P 1300 9250
+F 0 "D5" V 1250 9350 39  0000 L CNN
+F 1 "1N4148" V 1300 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1300 9250 50  0001 C CNN
+F 3 "~" V 1300 9250 50  0001 C CNN
+	1    1300 9250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:5
 U 1 1 5E820EFA
-P 2100 3100
-F 0 "MX1:5" H 2200 3000 39  0000 C CNN
-F 1 "+" H 2200 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1475 3075 60  0001 C CNN
-F 3 "" H 1475 3075 60  0001 C CNN
-	1    2100 3100
+P 2500 8000
+F 0 "MX1:5" H 2600 7900 39  0000 C CNN
+F 1 "+" H 2600 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1875 7975 60  0001 C CNN
+F 3 "" H 1875 7975 60  0001 C CNN
+	1    2500 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:6
 U 1 1 5E820EEE
-P 1800 3750
-F 0 "MX1:6" H 1900 3650 39  0000 C CNN
-F 1 "6 / RightArrow" H 1900 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 3725 60  0001 C CNN
-F 3 "" H 1175 3725 60  0001 C CNN
-	1    1800 3750
+P 2150 8650
+F 0 "MX1:6" H 2250 8550 39  0000 C CNN
+F 1 "6 / RightArrow" H 2250 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1525 8625 60  0001 C CNN
+F 3 "" H 1525 8625 60  0001 C CNN
+	1    2150 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D15
 U 1 1 5E820EE8
-P 1850 3500
-F 0 "D15" V 1800 3600 39  0000 L CNN
-F 1 "1N4148" V 1850 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1850 3500 50  0001 C CNN
-F 3 "~" V 1850 3500 50  0001 C CNN
-	1    1850 3500
-	0    1    1    0   
+P 2000 8600
+F 0 "D15" V 1950 8700 39  0000 L CNN
+F 1 "1N4148" V 2000 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2000 8600 50  0001 C CNN
+F 3 "~" V 2000 8600 50  0001 C CNN
+	1    2000 8600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:7
 U 1 1 5E820EE2
-P 1500 3750
-F 0 "MX0:7" H 1600 3650 39  0000 C CNN
-F 1 "5" H 1600 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 875 3725 60  0001 C CNN
-F 3 "" H 875 3725 60  0001 C CNN
-	1    1500 3750
+P 1800 8650
+F 0 "MX0:7" H 1900 8550 39  0000 C CNN
+F 1 "5" H 1900 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 8625 60  0001 C CNN
+F 3 "" H 1175 8625 60  0001 C CNN
+	1    1800 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D10
 U 1 1 5E820EDC
-P 1550 3500
-F 0 "D10" V 1500 3600 39  0000 L CNN
-F 1 "1N4148" V 1550 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1550 3500 50  0001 C CNN
-F 3 "~" V 1550 3500 50  0001 C CNN
-	1    1550 3500
-	0    1    1    0   
+P 1650 8600
+F 0 "D10" V 1600 8700 39  0000 L CNN
+F 1 "1N4148" V 1650 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1650 8600 50  0001 C CNN
+F 3 "~" V 1650 8600 50  0001 C CNN
+	1    1650 8600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:6
 U 1 1 5E820ED6
-P 1200 3750
-F 0 "MX0:6" H 1300 3650 39  0000 C CNN
-F 1 "4 / LeftArrow" H 1300 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 575 3725 60  0001 C CNN
-F 3 "" H 575 3725 60  0001 C CNN
-	1    1200 3750
+P 1450 8650
+F 0 "MX0:6" H 1550 8550 39  0000 C CNN
+F 1 "4 / LeftArrow" H 1550 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 825 8625 60  0001 C CNN
+F 3 "" H 825 8625 60  0001 C CNN
+	1    1450 8650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D4
 U 1 1 5E820ED0
-P 1250 3500
-F 0 "D4" V 1200 3600 39  0000 L CNN
-F 1 "1N4148" V 1250 3550 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1250 3500 50  0001 C CNN
-F 3 "~" V 1250 3500 50  0001 C CNN
-	1    1250 3500
-	0    1    1    0   
+P 1300 8600
+F 0 "D4" V 1250 8700 39  0000 L CNN
+F 1 "1N4148" V 1300 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1300 8600 50  0001 C CNN
+F 3 "~" V 1300 8600 50  0001 C CNN
+	1    1300 8600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:4
 U 1 1 5E820ECA
-P 1800 3100
-F 0 "MX1:4" H 1900 3000 39  0000 C CNN
-F 1 "9 / PgUp" H 1900 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 3075 60  0001 C CNN
-F 3 "" H 1175 3075 60  0001 C CNN
-	1    1800 3100
+P 2150 8000
+F 0 "MX1:4" H 2250 7900 39  0000 C CNN
+F 1 "9 / PgUp" H 2250 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1525 7975 60  0001 C CNN
+F 3 "" H 1525 7975 60  0001 C CNN
+	1    2150 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:5
 U 1 1 5E820EBE
-P 1500 3100
-F 0 "MX0:5" H 1600 3000 39  0000 C CNN
-F 1 "8 / UpArrow" H 1600 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 875 3075 60  0001 C CNN
-F 3 "" H 875 3075 60  0001 C CNN
-	1    1500 3100
+P 1800 8000
+F 0 "MX0:5" H 1900 7900 39  0000 C CNN
+F 1 "8 / UpArrow" H 1900 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 7975 60  0001 C CNN
+F 3 "" H 1175 7975 60  0001 C CNN
+	1    1800 8000
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:4
 U 1 1 5E820EB2
-P 1200 3100
-F 0 "MX0:4" H 1300 3000 39  0000 C CNN
-F 1 "7 / Home" H 1300 2950 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 575 3075 60  0001 C CNN
-F 3 "" H 575 3075 60  0001 C CNN
-	1    1200 3100
+P 1450 8000
+F 0 "MX0:4" H 1550 7900 39  0000 C CNN
+F 1 "7 / Home" H 1550 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 825 7975 60  0001 C CNN
+F 3 "" H 825 7975 60  0001 C CNN
+	1    1450 8000
 	-1   0    0    1   
 $EndComp
-Text GLabel 900  3250 0    50   Input ~ 0
+Text GLabel 1150 8150 0    50   Input ~ 0
 Row6
-Text GLabel 900  3350 0    50   Input ~ 0
+Text GLabel 1150 8250 0    50   Input ~ 0
 Row7
-Text GLabel 900  3900 0    50   Input ~ 0
+Text GLabel 1150 8800 0    50   Input ~ 0
 Row8
-Text GLabel 900  4000 0    50   Input ~ 0
+Text GLabel 1150 8900 0    50   Input ~ 0
 Row9
-Text GLabel 900  4550 0    50   Input ~ 0
+Text GLabel 1150 9450 0    50   Input ~ 0
 Row10
-Text GLabel 900  4650 0    50   Input ~ 0
+Text GLabel 1150 9550 0    50   Input ~ 0
 Row11
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:6
 U 1 1 5E82136C
-P 6900 3750
-F 0 "MX9:6" H 7000 3650 39  0000 C CNN
-F 1 "Page Up" H 7000 3600 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 6275 3725 60  0001 C CNN
-F 3 "" H 6275 3725 60  0001 C CNN
-	1    6900 3750
+P 7050 8650
+F 0 "MX9:6" H 7150 8550 39  0000 C CNN
+F 1 "Page Up" H 7150 8500 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6425 8625 60  0001 C CNN
+F 3 "" H 6425 8625 60  0001 C CNN
+	1    7050 8650
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	900  1750 1250 1750
-Wire Wire Line
-	900  1850 1550 1850
-Wire Wire Line
-	900  2500 1250 2500
-Wire Wire Line
-	900  2600 1550 2600
-Wire Wire Line
-	900  3250 1250 3250
-Wire Wire Line
-	900  3350 1550 3350
-Wire Wire Line
-	900  3900 1250 3900
-Wire Wire Line
-	900  4000 1550 4000
-Wire Wire Line
-	900  4550 1250 4550
-Wire Wire Line
-	900  4650 1850 4650
-Wire Wire Line
-	1050 950  1350 950 
-Connection ~ 1350 950 
-Wire Wire Line
-	1350 950  1350 900 
-Connection ~ 1350 2400
-Wire Wire Line
-	1350 2400 1350 3150
-Connection ~ 1350 3150
-Wire Wire Line
-	1350 3150 1350 3800
-Connection ~ 1350 3800
-Wire Wire Line
-	1350 3800 1350 4450
-Wire Wire Line
-	1050 5100 1050 4450
-Connection ~ 1050 2400
-Connection ~ 1050 3150
-Wire Wire Line
-	1050 3150 1050 2400
-Connection ~ 1050 3800
-Wire Wire Line
-	1050 3800 1050 3150
-Connection ~ 1050 4450
-Wire Wire Line
-	1050 4450 1050 3800
-Wire Wire Line
-	1950 900  1950 950 
-Connection ~ 1950 2400
-Wire Wire Line
-	1950 2400 1950 3150
-Connection ~ 1950 3150
-Wire Wire Line
-	1950 3150 1950 4450
-Wire Wire Line
-	1950 950  1650 950 
-Connection ~ 1950 950 
-Connection ~ 1650 2400
-Wire Wire Line
-	1650 2400 1650 3150
-Connection ~ 1650 3150
-Wire Wire Line
-	1650 3150 1650 3800
-Connection ~ 1650 3800
-Wire Wire Line
-	1650 3800 1650 4450
-Wire Wire Line
-	1650 4450 1650 5100
-Connection ~ 1650 4450
-Wire Wire Line
-	2550 900  2550 950 
-Connection ~ 2550 1650
-Wire Wire Line
-	2550 1650 2550 2400
-Connection ~ 2550 2400
-Wire Wire Line
-	2550 2400 2550 5100
-Wire Wire Line
-	2550 950  2250 950 
-Wire Wire Line
-	2250 950  2250 1650
-Connection ~ 2550 950 
-Wire Wire Line
-	2550 950  2550 1650
-Connection ~ 2250 1650
-Wire Wire Line
-	2250 1650 2250 2400
-Connection ~ 2250 2400
-Wire Wire Line
-	2250 2400 2250 3150
-Connection ~ 2250 3150
-Wire Wire Line
-	2250 3150 2250 3800
-Connection ~ 2250 3800
-Wire Wire Line
-	2250 3800 2250 4450
-Connection ~ 2250 4450
-Wire Wire Line
-	2250 4450 2250 5100
-Wire Wire Line
-	3150 5100 3150 4450
-Connection ~ 3150 1650
-Wire Wire Line
-	3150 1650 3150 950 
-Connection ~ 3150 2400
-Wire Wire Line
-	3150 2400 3150 1650
-Connection ~ 3150 3150
-Wire Wire Line
-	3150 3150 3150 2400
-Connection ~ 3150 3800
-Wire Wire Line
-	3150 3800 3150 3150
-Connection ~ 3150 4450
-Wire Wire Line
-	3150 4450 3150 3800
-Wire Wire Line
-	3150 950  2850 950 
-Wire Wire Line
-	2850 950  2850 1650
-Connection ~ 3150 950 
-Wire Wire Line
-	3150 950  3150 900 
-Connection ~ 2850 1650
-Wire Wire Line
-	2850 1650 2850 2400
-Connection ~ 2850 2400
-Wire Wire Line
-	2850 2400 2850 3150
-Connection ~ 2850 3150
-Wire Wire Line
-	2850 3150 2850 3800
-Connection ~ 2850 3800
-Wire Wire Line
-	2850 3800 2850 4450
-Connection ~ 2850 4450
-Wire Wire Line
-	2850 4450 2850 5100
-Wire Wire Line
-	3750 900  3750 950 
-Connection ~ 3750 1650
-Wire Wire Line
-	3750 1650 3750 2400
-Connection ~ 3750 2400
-Wire Wire Line
-	3750 2400 3750 3150
-Connection ~ 3750 3150
-Wire Wire Line
-	3750 3150 3750 3800
-Connection ~ 3750 3800
-Wire Wire Line
-	3750 3800 3750 4450
-Wire Wire Line
-	3750 950  3450 950 
-Wire Wire Line
-	3450 950  3450 1650
-Connection ~ 3750 950 
-Wire Wire Line
-	3750 950  3750 1650
-Connection ~ 3450 1650
-Wire Wire Line
-	3450 1650 3450 2400
-Connection ~ 3450 2400
-Wire Wire Line
-	3450 2400 3450 3150
-Connection ~ 3450 3150
-Wire Wire Line
-	3450 3150 3450 3800
-Connection ~ 3450 3800
-Wire Wire Line
-	3450 3800 3450 4450
-Wire Wire Line
-	4350 900  4350 950 
-Connection ~ 4350 1650
-Wire Wire Line
-	4350 1650 4350 2400
-Connection ~ 4350 2400
-Wire Wire Line
-	4350 2400 4350 3150
-Connection ~ 4350 3150
-Wire Wire Line
-	4350 3150 4350 3800
-Connection ~ 4350 3800
-Wire Wire Line
-	4350 3800 4350 4450
-Wire Wire Line
-	4350 950  4050 950 
-Wire Wire Line
-	4050 950  4050 1650
-Connection ~ 4350 950 
-Wire Wire Line
-	4350 950  4350 1650
-Connection ~ 4050 1650
-Wire Wire Line
-	4050 1650 4050 2400
-Connection ~ 4050 2400
-Wire Wire Line
-	4050 2400 4050 3150
-Connection ~ 4050 3150
-Wire Wire Line
-	4050 3150 4050 3800
-Connection ~ 4050 3800
-Wire Wire Line
-	4050 3800 4050 4450
-Wire Wire Line
-	4950 900  4950 950 
-Connection ~ 4950 1650
-Wire Wire Line
-	4950 1650 4950 2400
-Connection ~ 4950 2400
-Wire Wire Line
-	4950 2400 4950 3150
-Connection ~ 4950 3150
-Wire Wire Line
-	4950 3150 4950 3800
-Connection ~ 4950 3800
-Wire Wire Line
-	4950 3800 4950 4450
-Wire Wire Line
-	4950 950  4650 950 
-Wire Wire Line
-	4650 950  4650 1650
-Connection ~ 4950 950 
-Wire Wire Line
-	4950 950  4950 1650
-Connection ~ 4650 1650
-Wire Wire Line
-	4650 1650 4650 2400
-Connection ~ 4650 2400
-Wire Wire Line
-	4650 2400 4650 3150
-Connection ~ 4650 3150
-Wire Wire Line
-	4650 3150 4650 3800
-Connection ~ 4650 3800
-Wire Wire Line
-	4650 3800 4650 4450
-Wire Wire Line
-	5550 900  5550 950 
-Connection ~ 5550 1650
-Wire Wire Line
-	5550 1650 5550 2400
-Connection ~ 5550 2400
-Wire Wire Line
-	5550 2400 5550 3150
-Connection ~ 5550 3150
-Wire Wire Line
-	5550 3150 5550 3800
-Connection ~ 5550 3800
-Wire Wire Line
-	5550 3800 5550 4450
-Connection ~ 5550 4450
-Wire Wire Line
-	5550 4450 5550 5100
-Wire Wire Line
-	5550 950  5250 950 
-Wire Wire Line
-	5250 950  5250 1650
-Connection ~ 5550 950 
-Wire Wire Line
-	5550 950  5550 1650
-Connection ~ 5250 1650
-Wire Wire Line
-	5250 1650 5250 2400
-Connection ~ 5250 2400
-Wire Wire Line
-	5250 2400 5250 3150
-Connection ~ 5250 3150
-Wire Wire Line
-	5250 3150 5250 3800
-Connection ~ 5250 3800
-Wire Wire Line
-	5250 3800 5250 4450
-Connection ~ 5250 4450
-Wire Wire Line
-	5250 4450 5250 5100
-Wire Wire Line
-	6150 900  6150 950 
-Connection ~ 6150 1650
-Wire Wire Line
-	6150 1650 6150 2400
-Connection ~ 6150 2400
-Wire Wire Line
-	6150 2400 6150 3150
-Connection ~ 6150 3150
-Wire Wire Line
-	6150 3150 6150 3800
-Connection ~ 6150 3800
-Wire Wire Line
-	6150 3800 6150 5100
-Wire Wire Line
-	6150 950  5850 950 
-Wire Wire Line
-	5850 950  5850 1650
-Connection ~ 6150 950 
-Wire Wire Line
-	6150 950  6150 1650
-Connection ~ 5850 1650
-Wire Wire Line
-	5850 1650 5850 2400
-Connection ~ 5850 2400
-Wire Wire Line
-	5850 2400 5850 3150
-Connection ~ 5850 3150
-Wire Wire Line
-	5850 3150 5850 3800
-Connection ~ 5850 3800
-Wire Wire Line
-	5850 3800 5850 4450
-Connection ~ 5850 4450
-Wire Wire Line
-	5850 4450 5850 5100
-Wire Wire Line
-	6750 900  6750 950 
-Connection ~ 6750 1650
-Wire Wire Line
-	6750 1650 6750 2400
-Connection ~ 6750 2400
-Wire Wire Line
-	6750 2400 6750 3150
-Connection ~ 6750 3150
-Wire Wire Line
-	6750 3150 6750 3800
-Connection ~ 6750 3800
-Wire Wire Line
-	6750 3800 6750 4450
-Connection ~ 6750 4450
-Wire Wire Line
-	6750 4450 6750 5100
-Wire Wire Line
-	6750 950  6450 950 
-Wire Wire Line
-	6450 950  6450 1650
-Connection ~ 6750 950 
-Wire Wire Line
-	6750 950  6750 1650
-Connection ~ 6450 1650
-Wire Wire Line
-	6450 1650 6450 3150
-Connection ~ 6450 3150
-Wire Wire Line
-	6450 3150 6450 4450
-Connection ~ 6450 4450
-Wire Wire Line
-	6450 4450 6450 5100
-Wire Wire Line
-	2450 1250 2450 1100
-Connection ~ 2450 1100
-Wire Wire Line
-	2450 1100 3050 1100
-Wire Wire Line
-	2750 1250 2750 1200
-Connection ~ 2750 1200
-Wire Wire Line
-	2750 1200 3350 1200
-Wire Wire Line
-	3050 1250 3050 1100
-Connection ~ 3050 1100
-Wire Wire Line
-	3050 1100 3650 1100
-Wire Wire Line
-	3350 1250 3350 1200
-Connection ~ 3350 1200
-Wire Wire Line
-	3350 1200 3950 1200
-Wire Wire Line
-	3650 1250 3650 1100
-Connection ~ 3650 1100
-Wire Wire Line
-	3650 1100 4250 1100
-Wire Wire Line
-	3950 1250 3950 1200
-Connection ~ 3950 1200
-Wire Wire Line
-	3950 1200 4550 1200
-Wire Wire Line
-	4250 1250 4250 1100
-Connection ~ 4250 1100
-Wire Wire Line
-	4250 1100 4850 1100
-Wire Wire Line
-	4550 1250 4550 1200
-Connection ~ 4550 1200
-Wire Wire Line
-	4550 1200 5150 1200
-Wire Wire Line
-	4850 1250 4850 1100
-Connection ~ 4850 1100
-Wire Wire Line
-	4850 1100 5450 1100
-Wire Wire Line
-	5150 1250 5150 1200
-Connection ~ 5150 1200
-Wire Wire Line
-	5150 1200 5750 1200
-Wire Wire Line
-	5450 1250 5450 1100
-Connection ~ 5450 1100
-Wire Wire Line
-	5450 1100 6050 1100
-Wire Wire Line
-	5750 1250 5750 1200
-Connection ~ 5750 1200
-Wire Wire Line
-	5750 1200 6350 1200
-Wire Wire Line
-	6050 1250 6050 1100
-Connection ~ 6050 1100
-Wire Wire Line
-	6050 1100 6650 1100
-Wire Wire Line
-	6350 1250 6350 1200
-Connection ~ 6350 1200
-Wire Wire Line
-	6350 1200 6950 1200
-Wire Wire Line
-	6650 1250 6650 1100
-Wire Wire Line
-	6950 1250 6950 1200
-Wire Wire Line
-	1250 2000 1250 1750
-Connection ~ 1250 1750
-Wire Wire Line
-	1250 1750 1850 1750
-Wire Wire Line
-	1550 2000 1550 1850
-Connection ~ 1550 1850
-Wire Wire Line
-	1550 1850 2150 1850
-Wire Wire Line
-	1850 2000 1850 1750
-Connection ~ 1850 1750
-Wire Wire Line
-	1850 1750 2450 1750
-Wire Wire Line
-	2150 2000 2150 1850
-Connection ~ 2150 1850
-Wire Wire Line
-	2150 1850 2750 1850
-Wire Wire Line
-	2450 2000 2450 1750
-Connection ~ 2450 1750
-Wire Wire Line
-	2450 1750 3050 1750
-Wire Wire Line
-	2750 2000 2750 1850
-Connection ~ 2750 1850
-Wire Wire Line
-	2750 1850 3350 1850
-Wire Wire Line
-	3050 2000 3050 1750
-Connection ~ 3050 1750
-Wire Wire Line
-	3050 1750 3650 1750
-Wire Wire Line
-	3350 2000 3350 1850
-Connection ~ 3350 1850
-Wire Wire Line
-	3350 1850 3950 1850
-Wire Wire Line
-	3650 2000 3650 1750
-Connection ~ 3650 1750
-Wire Wire Line
-	3950 2000 3950 1850
-Connection ~ 3950 1850
-Wire Wire Line
-	3950 1850 4550 1850
-Wire Wire Line
-	4250 2000 4250 1750
-Wire Wire Line
-	3650 1750 4250 1750
-Connection ~ 4250 1750
-Wire Wire Line
-	4250 1750 4850 1750
-Wire Wire Line
-	4550 2000 4550 1850
-Connection ~ 4550 1850
-Wire Wire Line
-	4550 1850 5150 1850
-Wire Wire Line
-	4850 2000 4850 1750
-Connection ~ 4850 1750
-Wire Wire Line
-	4850 1750 5450 1750
-Wire Wire Line
-	5150 2000 5150 1850
-Connection ~ 5150 1850
-Wire Wire Line
-	5150 1850 5750 1850
-Wire Wire Line
-	5450 2000 5450 1750
-Connection ~ 5450 1750
-Wire Wire Line
-	5450 1750 6050 1750
-Wire Wire Line
-	5750 2000 5750 1850
-Connection ~ 5750 1850
-Wire Wire Line
-	5750 1850 6350 1850
-Wire Wire Line
-	6050 2000 6050 1750
-Connection ~ 6050 1750
-Wire Wire Line
-	6050 1750 6950 1750
-Wire Wire Line
-	6350 2000 6350 1850
-Wire Wire Line
-	6950 1750 6950 2000
-Wire Wire Line
-	1250 2750 1250 2500
-Connection ~ 1250 2500
-Wire Wire Line
-	1250 2500 1850 2500
-Wire Wire Line
-	1550 2750 1550 2600
-Connection ~ 1550 2600
-Wire Wire Line
-	1550 2600 2150 2600
-Wire Wire Line
-	1850 2750 1850 2500
-Connection ~ 1850 2500
-Wire Wire Line
-	1850 2500 2450 2500
-Wire Wire Line
-	2150 2750 2150 2600
-Connection ~ 2150 2600
-Wire Wire Line
-	2150 2600 3050 2600
-Wire Wire Line
-	2450 2750 2450 2500
-Connection ~ 2450 2500
-Wire Wire Line
-	2450 2500 3350 2500
-Wire Wire Line
-	3050 2750 3050 2600
-Connection ~ 3050 2600
-Wire Wire Line
-	3050 2600 3650 2600
-Wire Wire Line
-	3350 2750 3350 2500
-Connection ~ 3350 2500
-Wire Wire Line
-	3350 2500 3950 2500
-Wire Wire Line
-	3650 2750 3650 2600
-Connection ~ 3650 2600
-Wire Wire Line
-	3650 2600 4250 2600
-Wire Wire Line
-	3950 2750 3950 2500
-Connection ~ 3950 2500
-Wire Wire Line
-	3950 2500 4550 2500
-Wire Wire Line
-	4250 2750 4250 2600
-Connection ~ 4250 2600
-Wire Wire Line
-	4250 2600 4850 2600
-Wire Wire Line
-	4550 2750 4550 2500
-Connection ~ 4550 2500
-Wire Wire Line
-	4550 2500 5150 2500
-Wire Wire Line
-	4850 2750 4850 2600
-Connection ~ 4850 2600
-Wire Wire Line
-	4850 2600 5450 2600
-Wire Wire Line
-	5150 2750 5150 2500
-Connection ~ 5150 2500
-Wire Wire Line
-	5150 2500 5750 2500
-Wire Wire Line
-	5450 2750 5450 2600
-Connection ~ 5450 2600
-Wire Wire Line
-	5450 2600 6050 2600
-Wire Wire Line
-	5750 2750 5750 2500
-Connection ~ 5750 2500
-Wire Wire Line
-	5750 2500 6350 2500
-Wire Wire Line
-	6050 2750 6050 2600
-Connection ~ 6050 2600
-Wire Wire Line
-	6050 2600 6650 2600
-Wire Wire Line
-	6350 2750 6350 2500
-Connection ~ 6350 2500
-Wire Wire Line
-	6350 2500 6950 2500
-Wire Wire Line
-	6650 2750 6650 2600
-Wire Wire Line
-	6950 2500 6950 2750
-Wire Wire Line
-	1250 3400 1250 3250
-Connection ~ 1250 3250
-Wire Wire Line
-	1250 3250 1850 3250
-Wire Wire Line
-	1550 3400 1550 3350
-Connection ~ 1550 3350
-Wire Wire Line
-	1550 3350 2450 3350
-Wire Wire Line
-	1850 3400 1850 3250
-Connection ~ 1850 3250
-Wire Wire Line
-	1850 3250 3050 3250
-Wire Wire Line
-	2450 3400 2450 3350
-Connection ~ 2450 3350
-Wire Wire Line
-	2450 3350 3350 3350
-Wire Wire Line
-	3050 3400 3050 3250
-Connection ~ 3050 3250
-Wire Wire Line
-	3050 3250 3650 3250
-Wire Wire Line
-	3350 3400 3350 3350
-Connection ~ 3350 3350
-Wire Wire Line
-	3350 3350 3950 3350
-Wire Wire Line
-	3650 3400 3650 3250
-Connection ~ 3650 3250
-Wire Wire Line
-	3650 3250 4250 3250
-Wire Wire Line
-	3950 3400 3950 3350
-Connection ~ 3950 3350
-Wire Wire Line
-	3950 3350 4550 3350
-Wire Wire Line
-	4250 3400 4250 3250
-Connection ~ 4250 3250
-Wire Wire Line
-	4250 3250 4850 3250
-Wire Wire Line
-	4550 3400 4550 3350
-Connection ~ 4550 3350
-Wire Wire Line
-	4550 3350 5150 3350
-Wire Wire Line
-	4850 3400 4850 3250
-Connection ~ 4850 3250
-Wire Wire Line
-	4850 3250 5450 3250
-Wire Wire Line
-	5150 3400 5150 3350
-Connection ~ 5150 3350
-Wire Wire Line
-	5150 3350 5750 3350
-Wire Wire Line
-	5450 3400 5450 3250
-Connection ~ 5450 3250
-Wire Wire Line
-	5450 3250 6050 3250
-Wire Wire Line
-	5750 3400 5750 3350
-Connection ~ 5750 3350
-Wire Wire Line
-	5750 3350 6350 3350
-Wire Wire Line
-	6050 3400 6050 3250
-Connection ~ 6050 3250
-Wire Wire Line
-	6050 3250 6950 3250
-Wire Wire Line
-	6350 3400 6350 3350
-Wire Wire Line
-	6950 3250 6950 3400
-Wire Wire Line
-	1250 4050 1250 3900
-Connection ~ 1250 3900
-Wire Wire Line
-	1250 3900 1850 3900
-Wire Wire Line
-	1550 4050 1550 4000
-Connection ~ 1550 4000
-Wire Wire Line
-	1550 4000 2150 4000
-Wire Wire Line
-	1850 4050 1850 3900
-Connection ~ 1850 3900
-Wire Wire Line
-	1850 3900 2450 3900
-Wire Wire Line
-	2150 4050 2150 4000
-Connection ~ 2150 4000
-Wire Wire Line
-	2150 4000 3050 4000
-Wire Wire Line
-	2450 4050 2450 3900
-Connection ~ 2450 3900
-Wire Wire Line
-	2450 3900 3350 3900
-Wire Wire Line
-	3050 4050 3050 4000
-Connection ~ 3050 4000
-Wire Wire Line
-	3050 4000 3650 4000
-Wire Wire Line
-	3350 4050 3350 3900
-Connection ~ 3350 3900
-Wire Wire Line
-	3350 3900 3950 3900
-Wire Wire Line
-	3650 4050 3650 4000
-Connection ~ 3650 4000
-Wire Wire Line
-	3650 4000 4250 4000
-Wire Wire Line
-	3950 4050 3950 3900
-Connection ~ 3950 3900
-Wire Wire Line
-	3950 3900 4550 3900
-Wire Wire Line
-	4250 4050 4250 4000
-Connection ~ 4250 4000
-Wire Wire Line
-	4250 4000 4850 4000
-Wire Wire Line
-	4550 4050 4550 3900
-Connection ~ 4550 3900
-Wire Wire Line
-	4550 3900 5150 3900
-Wire Wire Line
-	4850 4050 4850 4000
-Connection ~ 4850 4000
-Wire Wire Line
-	4850 4000 5450 4000
-Wire Wire Line
-	5150 4050 5150 3900
-Connection ~ 5150 3900
-Wire Wire Line
-	5150 3900 5750 3900
-Wire Wire Line
-	5450 4050 5450 4000
-Connection ~ 5450 4000
-Wire Wire Line
-	5450 4000 6050 4000
-Wire Wire Line
-	5750 4050 5750 3900
-Connection ~ 5750 3900
-Wire Wire Line
-	5750 3900 6650 3900
-Wire Wire Line
-	6050 4050 6050 4000
-Connection ~ 6050 4000
-Wire Wire Line
-	6050 4000 6950 4000
-Wire Wire Line
-	6650 4050 6650 3900
-Wire Wire Line
-	6950 4050 6950 4000
-Wire Wire Line
-	1250 4700 1250 4550
-Connection ~ 1250 4550
-Wire Wire Line
-	1250 4550 2450 4550
-Wire Wire Line
-	1850 4700 1850 4650
-Connection ~ 1850 4650
-Wire Wire Line
-	1850 4650 2750 4650
-Wire Wire Line
-	2450 4700 2450 4550
-Connection ~ 2450 4550
-Wire Wire Line
-	2450 4550 3050 4550
-Wire Wire Line
-	2750 4700 2750 4650
-Connection ~ 2750 4650
-Wire Wire Line
-	2750 4650 3350 4650
-Wire Wire Line
-	3050 4700 3050 4550
-Connection ~ 3050 4550
-Wire Wire Line
-	3050 4550 5450 4550
-Wire Wire Line
-	3350 4700 3350 4650
-Connection ~ 3350 4650
-Wire Wire Line
-	3350 4650 5750 4650
-Wire Wire Line
-	5450 4700 5450 4550
-Connection ~ 5450 4550
-Wire Wire Line
-	5450 4550 6050 4550
-Wire Wire Line
-	5750 4700 5750 4650
-Connection ~ 5750 4650
-Wire Wire Line
-	5750 4650 6350 4650
-Wire Wire Line
-	6050 4700 6050 4550
-Connection ~ 6050 4550
-Wire Wire Line
-	6050 4550 6650 4550
-Wire Wire Line
-	6350 4700 6350 4650
-Connection ~ 6350 4650
-Wire Wire Line
-	6350 4650 6950 4650
-Wire Wire Line
-	6650 4700 6650 4550
-Wire Wire Line
-	6950 4700 6950 4650
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9:10
 U 1 1 5E82133C
-P 6600 5050
-F 0 "MX9:10" H 6700 4950 39  0000 C CNN
-F 1 "DownArrow" H 6700 4900 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 5975 5025 60  0001 C CNN
-F 3 "" H 5975 5025 60  0001 C CNN
-	1    6600 5050
+P 4950 9950
+F 0 "MX9:10" H 5050 9850 39  0000 C CNN
+F 1 "DownArrow" H 5050 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 4325 9925 60  0001 C CNN
+F 3 "" H 4325 9925 60  0001 C CNN
+	1    4950 9950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2150 1200 2750 1200
-Connection ~ 2150 1200
-Wire Wire Line
-	2150 1250 2150 1200
 $Comp
 L Device:D_Small D18
 U 1 1 5E820E70
-P 2150 1350
-F 0 "D18" V 2100 1450 39  0000 L CNN
-F 1 "1N4148" V 2150 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2150 1350 50  0001 C CNN
-F 3 "~" V 2150 1350 50  0001 C CNN
-	1    2150 1350
-	0    1    1    0   
+P 2350 6450
+F 0 "D18" V 2300 6550 39  0000 L CNN
+F 1 "1N4148" V 2350 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2350 6450 50  0001 C CNN
+F 3 "~" V 2350 6450 50  0001 C CNN
+	1    2350 6450
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1950 950  1950 1650
-Wire Wire Line
-	1950 1650 1950 2400
-Connection ~ 1950 1650
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:1
 U 1 1 5E820E76
-P 2100 1600
-F 0 "MX1:1" H 2200 1500 39  0000 C CNN
-F 1 "Macro4" H 2200 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1475 1575 60  0001 C CNN
-F 3 "" H 1475 1575 60  0001 C CNN
-	1    2100 1600
+P 2500 6500
+F 0 "MX1:1" H 2600 6400 39  0000 C CNN
+F 1 "Macro4" H 2600 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1875 6475 60  0001 C CNN
+F 3 "" H 1875 6475 60  0001 C CNN
+	1    2500 6500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1850 1100 2450 1100
-Connection ~ 1850 1100
-Wire Wire Line
-	1850 1250 1850 1100
 $Comp
 L Device:D_Small D12
 U 1 1 5E820E64
-P 1850 1350
-F 0 "D12" V 1800 1450 39  0000 L CNN
-F 1 "1N4148" V 1850 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1850 1350 50  0001 C CNN
-F 3 "~" V 1850 1350 50  0001 C CNN
-	1    1850 1350
-	0    1    1    0   
+P 2000 6450
+F 0 "D12" V 1950 6550 39  0000 L CNN
+F 1 "1N4148" V 2000 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2000 6450 50  0001 C CNN
+F 3 "~" V 2000 6450 50  0001 C CNN
+	1    2000 6450
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1650 1650 1650 2400
-Wire Wire Line
-	1650 950  1650 1650
-Connection ~ 1650 1650
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1:0
 U 1 1 5E820E6A
-P 1800 1600
-F 0 "MX1:0" H 1900 1500 39  0000 C CNN
-F 1 "Macro3" H 1900 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 1575 60  0001 C CNN
-F 3 "" H 1175 1575 60  0001 C CNN
-	1    1800 1600
+P 2150 6500
+F 0 "MX1:0" H 2250 6400 39  0000 C CNN
+F 1 "Macro3" H 2250 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1525 6475 60  0001 C CNN
+F 3 "" H 1525 6475 60  0001 C CNN
+	1    2150 6500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1550 1200 2150 1200
-Connection ~ 1550 1200
-Wire Wire Line
-	1550 1250 1550 1200
 $Comp
 L Device:D_Small D7
 U 1 1 5E820E58
-P 1550 1350
-F 0 "D7" V 1500 1450 39  0000 L CNN
-F 1 "1N4148" V 1550 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1550 1350 50  0001 C CNN
-F 3 "~" V 1550 1350 50  0001 C CNN
-	1    1550 1350
-	0    1    1    0   
+P 1650 6450
+F 0 "D7" V 1600 6550 39  0000 L CNN
+F 1 "1N4148" V 1650 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1650 6450 50  0001 C CNN
+F 3 "~" V 1650 6450 50  0001 C CNN
+	1    1650 6450
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1350 1650 1350 2400
-Wire Wire Line
-	1350 1650 1350 950 
-Connection ~ 1350 1650
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:1
 U 1 1 5E820E5E
-P 1500 1600
-F 0 "MX0:1" H 1600 1500 39  0000 C CNN
-F 1 "Macro2" H 1600 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 875 1575 60  0001 C CNN
-F 3 "" H 875 1575 60  0001 C CNN
-	1    1500 1600
+P 1800 6500
+F 0 "MX0:1" H 1900 6400 39  0000 C CNN
+F 1 "Macro2" H 1900 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 1175 6475 60  0001 C CNN
+F 3 "" H 1175 6475 60  0001 C CNN
+	1    1800 6500
 	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 950  1050 1650
-Wire Wire Line
-	900  1100 1250 1100
-$Comp
-L Device:D_Small D1
-U 1 1 5E46D07D
-P 1250 1350
-F 0 "D1" V 1200 1450 39  0000 L CNN
-F 1 "1N4148" V 1250 1400 20  0000 L CNN
-F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1250 1350 50  0001 C CNN
-F 3 "~" V 1250 1350 50  0001 C CNN
-	1    1250 1350
-	0    1    1    0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0:0
 U 1 1 5E46D083
-P 1200 1600
-F 0 "MX0:0" H 1300 1500 39  0000 C CNN
-F 1 "Macro1" H 1300 1450 20  0000 C CNN
-F 2 "keyswitches.pretty:Kailh_socket_MX" H 575 1575 60  0001 C CNN
-F 3 "" H 575 1575 60  0001 C CNN
-	1    1200 1600
+P 1450 6500
+F 0 "MX0:0" H 1500 6400 39  0000 C CNN
+F 1 "Macro1" H 1500 6350 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 825 6475 60  0001 C CNN
+F 3 "" H 825 6475 60  0001 C CNN
+	1    1450 6500
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3267,13 +2039,6 @@ Text GLabel 8550 1400 2    50   Input ~ 0
 SWDIO
 NoConn ~ 8550 1500
 NoConn ~ 8550 1600
-Wire Wire Line
-	900  1200 1550 1200
-Wire Wire Line
-	1250 1250 1250 1100
-Connection ~ 1250 1100
-Wire Wire Line
-	1250 1100 1850 1100
 Wire Notes Line
 	7400 550  8950 550 
 Wire Notes Line
@@ -3284,19 +2049,8 @@ Wire Notes Line
 	7400 550  7400 2250
 Text Notes 8350 2200 0    50   ~ 0
 JTAG Interface
-Wire Notes Line
-	7300 5250 7300 550 
-Wire Notes Line
-	7300 550  550  550 
-Wire Notes Line
-	550  550  550  5250
-Wire Notes Line
-	7300 5250 550  5250
-Text Notes 4000 5200 0    50   ~ 0
+Text Notes 5750 9800 0    50   ~ 0
 Keyboard Matrix
-Connection ~ 1050 1650
-Wire Wire Line
-	1050 1650 1050 2400
 $Comp
 L power:GND #PWR0104
 U 1 1 5E64F9FE
@@ -4030,4 +2784,1452 @@ Text GLabel 13450 2950 0    50   Input ~ 0
 Col1
 Text GLabel 13450 2850 0    50   Input ~ 0
 Col0
+$Comp
+L Device:D_Small D1
+U 1 1 5E46D07D
+P 1300 6450
+F 0 "D1" V 1250 6550 39  0000 L CNN
+F 1 "1N4148" V 1300 6500 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1300 6450 50  0001 C CNN
+F 3 "~" V 1300 6450 50  0001 C CNN
+	1    1300 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 6350 1250 6350
+Wire Wire Line
+	1250 6350 1250 5850
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3:10
+U 1 1 5E821048
+P 2850 9950
+F 0 "MX3:10" H 2950 9850 39  0000 C CNN
+F 1 "Alt 1.25u" H 2950 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2225 9925 60  0001 C CNN
+F 3 "" H 2225 9925 60  0001 C CNN
+	1    2850 9950
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3:11
+U 1 1 5E821090
+P 3200 9950
+F 0 "MX3:11" H 3300 9850 39  0000 C CNN
+F 1 "Spacebar 6u" H 3300 9800 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 2575 9925 60  0001 C CNN
+F 3 "" H 2575 9925 60  0001 C CNN
+	1    3200 9950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 5E821102
+P 4100 9250
+F 0 "D52" V 4050 9350 39  0000 L CNN
+F 1 "1N4148" V 4100 9300 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4100 9250 50  0001 C CNN
+F 3 "~" V 4100 9250 50  0001 C CNN
+	1    4100 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5E82102A
+P 2700 8600
+F 0 "D34" V 2650 8700 39  0000 L CNN
+F 1 "1N4148" V 2700 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 2700 8600 50  0001 C CNN
+F 3 "~" V 2700 8600 50  0001 C CNN
+	1    2700 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 5E821072
+P 3050 8600
+F 0 "D40" V 3000 8700 39  0000 L CNN
+F 1 "1N4148" V 3050 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3050 8600 50  0001 C CNN
+F 3 "~" V 3050 8600 50  0001 C CNN
+	1    3050 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 5E8210BA
+P 3400 8600
+F 0 "D46" V 3350 8700 39  0000 L CNN
+F 1 "1N4148" V 3400 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3400 8600 50  0001 C CNN
+F 3 "~" V 3400 8600 50  0001 C CNN
+	1    3400 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 5E8210F6
+P 3750 8600
+F 0 "D51" V 3700 8700 39  0000 L CNN
+F 1 "1N4148" V 3750 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 3750 8600 50  0001 C CNN
+F 3 "~" V 3750 8600 50  0001 C CNN
+	1    3750 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 5E821132
+P 4100 8600
+F 0 "D56" V 4050 8700 39  0000 L CNN
+F 1 "1N4148" V 4100 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4100 8600 50  0001 C CNN
+F 3 "~" V 4100 8600 50  0001 C CNN
+	1    4100 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D61
+U 1 1 5E82116E
+P 4450 8600
+F 0 "D61" V 4400 8700 39  0000 L CNN
+F 1 "1N4148" V 4450 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4450 8600 50  0001 C CNN
+F 3 "~" V 4450 8600 50  0001 C CNN
+	1    4450 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D66
+U 1 1 5E8211AA
+P 4800 8600
+F 0 "D66" V 4750 8700 39  0000 L CNN
+F 1 "1N4148" V 4800 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4800 8600 50  0001 C CNN
+F 3 "~" V 4800 8600 50  0001 C CNN
+	1    4800 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D71
+U 1 1 5E8211E6
+P 5150 8600
+F 0 "D71" V 5100 8700 39  0000 L CNN
+F 1 "1N4148" V 5150 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5150 8600 50  0001 C CNN
+F 3 "~" V 5150 8600 50  0001 C CNN
+	1    5150 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D76
+U 1 1 5E821222
+P 5500 8600
+F 0 "D76" V 5450 8700 39  0000 L CNN
+F 1 "1N4148" V 5500 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5500 8600 50  0001 C CNN
+F 3 "~" V 5500 8600 50  0001 C CNN
+	1    5500 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D82
+U 1 1 5E821264
+P 5850 8600
+F 0 "D82" V 5800 8700 39  0000 L CNN
+F 1 "1N4148" V 5850 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5850 8600 50  0001 C CNN
+F 3 "~" V 5850 8600 50  0001 C CNN
+	1    5850 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D88
+U 1 1 5E8212B2
+P 6200 8600
+F 0 "D88" V 6150 8700 39  0000 L CNN
+F 1 "1N4148" V 6200 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6200 8600 50  0001 C CNN
+F 3 "~" V 6200 8600 50  0001 C CNN
+	1    6200 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D94
+U 1 1 5E8212FA
+P 6550 8600
+F 0 "D94" V 6500 8700 39  0000 L CNN
+F 1 "1N4148" V 6550 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6550 8600 50  0001 C CNN
+F 3 "~" V 6550 8600 50  0001 C CNN
+	1    6550 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D103
+U 1 1 5E821366
+P 6900 8600
+F 0 "D103" V 6850 8700 39  0000 L CNN
+F 1 "1N4148" V 6900 8650 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6900 8600 50  0001 C CNN
+F 3 "~" V 6900 8600 50  0001 C CNN
+	1    6900 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D55
+U 1 1 5E821126
+P 4450 7950
+F 0 "D55" V 4400 8050 39  0000 L CNN
+F 1 "1N4148" V 4450 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 4450 7950 50  0001 C CNN
+F 3 "~" V 4450 7950 50  0001 C CNN
+	1    4450 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5E820E88
+P 1650 7200
+F 0 "D8" V 1600 7300 39  0000 L CNN
+F 1 "1N4148" V 1650 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 1650 7200 50  0001 C CNN
+F 3 "~" V 1650 7200 50  0001 C CNN
+	1    1650 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D80
+U 1 1 5E82124C
+P 6550 7200
+F 0 "D80" V 6500 7300 39  0000 L CNN
+F 1 "1N4148" V 6550 7250 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6550 7200 50  0001 C CNN
+F 3 "~" V 6550 7200 50  0001 C CNN
+	1    6550 7200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 6350 1250 7100
+Wire Wire Line
+	1250 9800 1300 9800
+Connection ~ 1250 6350
+Wire Wire Line
+	1300 9150 1250 9150
+Connection ~ 1250 9150
+Wire Wire Line
+	1250 9150 1250 9800
+Wire Wire Line
+	1300 8500 1250 8500
+Connection ~ 1250 8500
+Wire Wire Line
+	1250 8500 1250 9150
+Wire Wire Line
+	1300 7850 1250 7850
+Connection ~ 1250 7850
+Wire Wire Line
+	1250 7850 1250 8500
+Wire Wire Line
+	1300 7100 1250 7100
+Connection ~ 1250 7100
+Wire Wire Line
+	1250 7100 1250 7850
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6:4
+U 1 1 5E8211E0
+P 5650 8000
+F 0 "MX6:4" H 5750 7900 39  0000 C CNN
+F 1 "I" H 5750 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5025 7975 60  0001 C CNN
+F 3 "" H 5025 7975 60  0001 C CNN
+	1    5650 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7:5
+U 1 1 5E82121C
+P 6000 8000
+F 0 "MX7:5" H 6100 7900 39  0000 C CNN
+F 1 "O" H 6100 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5375 7975 60  0001 C CNN
+F 3 "" H 5375 7975 60  0001 C CNN
+	1    6000 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7:4
+U 1 1 5E82125E
+P 6350 8000
+F 0 "MX7:4" H 6450 7900 39  0000 C CNN
+F 1 "P" H 6450 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 5725 7975 60  0001 C CNN
+F 3 "" H 5725 7975 60  0001 C CNN
+	1    6350 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8:5
+U 1 1 5E8212AC
+P 6700 8000
+F 0 "MX8:5" H 6800 7900 39  0000 C CNN
+F 1 "{" H 6800 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6075 7975 60  0001 C CNN
+F 3 "" H 6075 7975 60  0001 C CNN
+	1    6700 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8:4
+U 1 1 5E8212F4
+P 7050 8000
+F 0 "MX8:4" H 7150 7900 39  0000 C CNN
+F 1 "}" H 7150 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6425 7975 60  0001 C CNN
+F 3 "" H 6425 7975 60  0001 C CNN
+	1    7050 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D93
+U 1 1 5E8212EE
+P 6900 7950
+F 0 "D93" V 6850 8050 39  0000 L CNN
+F 1 "1N4148" V 6900 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6900 7950 50  0001 C CNN
+F 3 "~" V 6900 7950 50  0001 C CNN
+	1    6900 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D87
+U 1 1 5E8212A6
+P 6550 7950
+F 0 "D87" V 6500 8050 39  0000 L CNN
+F 1 "1N4148" V 6550 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6550 7950 50  0001 C CNN
+F 3 "~" V 6550 7950 50  0001 C CNN
+	1    6550 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D81
+U 1 1 5E821258
+P 6200 7950
+F 0 "D81" V 6150 8050 39  0000 L CNN
+F 1 "1N4148" V 6200 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 6200 7950 50  0001 C CNN
+F 3 "~" V 6200 7950 50  0001 C CNN
+	1    6200 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D75
+U 1 1 5E821216
+P 5850 7950
+F 0 "D75" V 5800 8050 39  0000 L CNN
+F 1 "1N4148" V 5850 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5850 7950 50  0001 C CNN
+F 3 "~" V 5850 7950 50  0001 C CNN
+	1    5850 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D70
+U 1 1 5E8211DA
+P 5500 7950
+F 0 "D70" V 5450 8050 39  0000 L CNN
+F 1 "1N4148" V 5500 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 5500 7950 50  0001 C CNN
+F 3 "~" V 5500 7950 50  0001 C CNN
+	1    5500 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D97
+U 1 1 5E82131E
+P 7250 7950
+F 0 "D97" V 7200 8050 39  0000 L CNN
+F 1 "1N4148" V 7250 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7250 7950 50  0001 C CNN
+F 3 "~" V 7250 7950 50  0001 C CNN
+	1    7250 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D102
+U 1 1 5E82135A
+P 7600 7950
+F 0 "D102" V 7550 8050 39  0000 L CNN
+F 1 "1N4148" V 7600 8000 20  0000 L CNN
+F 2 "keyboard_parts.pretty:D_SOD123W_hand" V 7600 7950 50  0001 C CNN
+F 3 "~" V 7600 7950 50  0001 C CNN
+	1    7600 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9:4
+U 1 1 5E821360
+P 7750 8000
+F 0 "MX9:4" H 7850 7900 39  0000 C CNN
+F 1 "Delete" H 7850 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 7125 7975 60  0001 C CNN
+F 3 "" H 7125 7975 60  0001 C CNN
+	1    7750 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9:5
+U 1 1 5E821324
+P 7400 8000
+F 0 "MX9:5" H 7500 7900 39  0000 C CNN
+F 1 "| 1.5u" H 7500 7850 20  0000 C CNN
+F 2 "keyswitches.pretty:Kailh_socket_MX" H 6775 7975 60  0001 C CNN
+F 3 "" H 6775 7975 60  0001 C CNN
+	1    7400 8000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 9800 1600 9800
+Text GLabel 2300 5800 1    50   Input ~ 0
+Col1
+Text GLabel 1600 5800 1    50   Input ~ 0
+Col0
+Wire Wire Line
+	1250 5850 1600 5850
+Wire Wire Line
+	1600 5850 1600 5800
+Wire Wire Line
+	1600 5850 1600 6350
+Connection ~ 1600 5850
+Wire Wire Line
+	1650 6350 1600 6350
+Connection ~ 1600 6350
+Wire Wire Line
+	1600 6350 1600 7100
+Wire Wire Line
+	1650 7100 1600 7100
+Connection ~ 1600 7100
+Wire Wire Line
+	1600 7100 1600 7850
+Wire Wire Line
+	1650 7850 1600 7850
+Connection ~ 1600 7850
+Wire Wire Line
+	1600 7850 1600 8500
+Wire Wire Line
+	1650 8500 1600 8500
+Connection ~ 1600 8500
+Wire Wire Line
+	1600 8500 1600 9150
+Wire Wire Line
+	1650 9150 1600 9150
+Connection ~ 1600 9150
+Wire Wire Line
+	1600 9150 1600 9800
+Wire Wire Line
+	2000 9800 1950 9800
+Wire Wire Line
+	1950 9800 1950 9150
+Wire Wire Line
+	2300 5850 2300 5800
+Wire Wire Line
+	1950 5850 2300 5850
+Wire Wire Line
+	2300 5850 2300 6350
+Wire Wire Line
+	2300 9800 2350 9800
+Connection ~ 2300 5850
+Wire Wire Line
+	2350 9150 2300 9150
+Connection ~ 2300 9150
+Wire Wire Line
+	2300 9150 2300 9800
+Wire Wire Line
+	2000 9150 1950 9150
+Connection ~ 1950 9150
+Wire Wire Line
+	1950 9150 1950 8500
+Wire Wire Line
+	2000 8500 1950 8500
+Connection ~ 1950 8500
+Wire Wire Line
+	1950 8500 1950 7850
+Wire Wire Line
+	2300 8500 2350 8500
+Connection ~ 2300 8500
+Wire Wire Line
+	2300 8500 2300 9150
+Wire Wire Line
+	2000 7850 1950 7850
+Connection ~ 1950 7850
+Wire Wire Line
+	1950 7850 1950 7100
+Wire Wire Line
+	2350 7850 2300 7850
+Connection ~ 2300 7850
+Wire Wire Line
+	2300 7850 2300 8500
+Wire Wire Line
+	2000 7100 1950 7100
+Connection ~ 1950 7100
+Wire Wire Line
+	1950 7100 1950 6350
+Wire Wire Line
+	2350 7100 2300 7100
+Connection ~ 2300 7100
+Wire Wire Line
+	2300 7100 2300 7850
+Wire Wire Line
+	2000 6350 1950 6350
+Connection ~ 1950 6350
+Wire Wire Line
+	1950 6350 1950 5850
+Wire Wire Line
+	2350 6350 2300 6350
+Connection ~ 2300 6350
+Wire Wire Line
+	2300 6350 2300 7100
+Wire Wire Line
+	2650 5850 2650 6350
+Wire Wire Line
+	2650 9800 2700 9800
+Wire Wire Line
+	2700 9150 2650 9150
+Connection ~ 2650 9150
+Wire Wire Line
+	2650 9150 2650 9800
+Wire Wire Line
+	2700 8500 2650 8500
+Connection ~ 2650 8500
+Wire Wire Line
+	2650 8500 2650 9150
+Wire Wire Line
+	2700 7850 2650 7850
+Connection ~ 2650 7850
+Wire Wire Line
+	2650 7850 2650 8500
+Wire Wire Line
+	2700 7100 2650 7100
+Connection ~ 2650 7100
+Wire Wire Line
+	2650 7100 2650 7850
+Wire Wire Line
+	2700 6350 2650 6350
+Connection ~ 2650 6350
+Wire Wire Line
+	2650 6350 2650 7100
+Wire Wire Line
+	2650 5850 3000 5850
+Wire Wire Line
+	3000 5850 3000 5800
+Wire Wire Line
+	3000 5850 3000 6350
+Wire Wire Line
+	3000 9800 3050 9800
+Connection ~ 3000 5850
+Wire Wire Line
+	3050 9150 3000 9150
+Connection ~ 3000 9150
+Wire Wire Line
+	3000 9150 3000 9800
+Wire Wire Line
+	3050 8500 3000 8500
+Connection ~ 3000 8500
+Wire Wire Line
+	3000 8500 3000 9150
+Wire Wire Line
+	3050 7850 3000 7850
+Connection ~ 3000 7850
+Wire Wire Line
+	3000 7850 3000 8500
+Wire Wire Line
+	3050 7100 3000 7100
+Connection ~ 3000 7100
+Wire Wire Line
+	3000 7100 3000 7850
+Wire Wire Line
+	3050 6350 3000 6350
+Connection ~ 3000 6350
+Wire Wire Line
+	3000 6350 3000 7100
+Wire Wire Line
+	3700 5800 3700 5850
+Wire Wire Line
+	3700 9150 3750 9150
+Wire Wire Line
+	3400 9150 3350 9150
+Wire Wire Line
+	3350 9150 3350 8500
+Wire Wire Line
+	3350 5850 3700 5850
+Connection ~ 3700 5850
+Wire Wire Line
+	3700 5850 3700 6350
+Wire Wire Line
+	3400 6350 3350 6350
+Connection ~ 3350 6350
+Wire Wire Line
+	3350 6350 3350 5850
+Wire Wire Line
+	3750 6350 3700 6350
+Connection ~ 3700 6350
+Wire Wire Line
+	3700 6350 3700 7100
+Wire Wire Line
+	3750 7100 3700 7100
+Connection ~ 3700 7100
+Wire Wire Line
+	3700 7100 3700 7850
+Wire Wire Line
+	3350 7100 3400 7100
+Connection ~ 3350 7100
+Wire Wire Line
+	3350 7100 3350 6350
+Wire Wire Line
+	3400 7850 3350 7850
+Connection ~ 3350 7850
+Wire Wire Line
+	3350 7850 3350 7100
+Wire Wire Line
+	3700 7850 3750 7850
+Connection ~ 3700 7850
+Wire Wire Line
+	3700 7850 3700 8500
+Wire Wire Line
+	3750 8500 3700 8500
+Connection ~ 3700 8500
+Wire Wire Line
+	3700 8500 3700 9150
+Wire Wire Line
+	3400 8500 3350 8500
+Connection ~ 3350 8500
+Wire Wire Line
+	3350 8500 3350 7850
+Wire Wire Line
+	3350 9150 3350 9800
+Wire Wire Line
+	3350 9800 3400 9800
+Connection ~ 3350 9150
+Wire Wire Line
+	3750 9800 3700 9800
+Wire Wire Line
+	3700 9800 3700 9150
+Connection ~ 3700 9150
+Wire Wire Line
+	4400 5800 4400 5850
+Wire Wire Line
+	4400 9150 4450 9150
+Wire Wire Line
+	4450 9800 4400 9800
+Wire Wire Line
+	4400 9800 4400 9150
+Connection ~ 4400 9150
+Wire Wire Line
+	4100 9800 4050 9800
+Wire Wire Line
+	4050 9800 4050 9150
+Wire Wire Line
+	4050 5850 4400 5850
+Connection ~ 4400 5850
+Wire Wire Line
+	4400 5850 4400 6350
+Wire Wire Line
+	4100 6350 4050 6350
+Connection ~ 4050 6350
+Wire Wire Line
+	4050 6350 4050 5850
+Wire Wire Line
+	4450 6350 4400 6350
+Connection ~ 4400 6350
+Wire Wire Line
+	4400 6350 4400 7100
+Wire Wire Line
+	4050 7100 4100 7100
+Connection ~ 4050 7100
+Wire Wire Line
+	4050 7100 4050 6350
+Wire Wire Line
+	4400 7100 4450 7100
+Connection ~ 4400 7100
+Wire Wire Line
+	4400 7100 4400 7850
+Wire Wire Line
+	4050 7850 4100 7850
+Connection ~ 4050 7850
+Wire Wire Line
+	4050 7850 4050 7100
+Wire Wire Line
+	4400 7850 4450 7850
+Connection ~ 4400 7850
+Wire Wire Line
+	4400 7850 4400 8500
+Wire Wire Line
+	4050 8500 4100 8500
+Connection ~ 4050 8500
+Wire Wire Line
+	4050 8500 4050 7850
+Wire Wire Line
+	4400 8500 4450 8500
+Connection ~ 4400 8500
+Wire Wire Line
+	4400 8500 4400 9150
+Wire Wire Line
+	4050 9150 4100 9150
+Connection ~ 4050 9150
+Wire Wire Line
+	4050 9150 4050 8500
+Wire Wire Line
+	4800 9800 4750 9800
+Wire Wire Line
+	4750 9800 4750 9150
+Wire Wire Line
+	4750 5850 5100 5850
+Wire Wire Line
+	5100 5850 5100 5800
+Wire Wire Line
+	5100 5850 5100 6350
+Wire Wire Line
+	5100 9800 5150 9800
+Connection ~ 5100 5850
+Wire Wire Line
+	5150 9150 5100 9150
+Connection ~ 5100 9150
+Wire Wire Line
+	5100 9150 5100 9800
+Wire Wire Line
+	4800 9150 4750 9150
+Connection ~ 4750 9150
+Wire Wire Line
+	4750 9150 4750 8500
+Wire Wire Line
+	4800 8500 4750 8500
+Connection ~ 4750 8500
+Wire Wire Line
+	4750 8500 4750 7850
+Wire Wire Line
+	5150 8500 5100 8500
+Connection ~ 5100 8500
+Wire Wire Line
+	5100 8500 5100 9150
+Wire Wire Line
+	5150 7850 5100 7850
+Connection ~ 5100 7850
+Wire Wire Line
+	5100 7850 5100 8500
+Wire Wire Line
+	4800 7850 4750 7850
+Connection ~ 4750 7850
+Wire Wire Line
+	4750 7850 4750 7100
+Wire Wire Line
+	4800 7100 4750 7100
+Connection ~ 4750 7100
+Wire Wire Line
+	4750 7100 4750 6350
+Wire Wire Line
+	5150 7100 5100 7100
+Connection ~ 5100 7100
+Wire Wire Line
+	5100 7100 5100 7850
+Wire Wire Line
+	4800 6350 4750 6350
+Connection ~ 4750 6350
+Wire Wire Line
+	4750 6350 4750 5850
+Wire Wire Line
+	5150 6350 5100 6350
+Connection ~ 5100 6350
+Wire Wire Line
+	5100 6350 5100 7100
+Wire Wire Line
+	5800 5800 5800 5850
+Wire Wire Line
+	5800 5850 5450 5850
+Wire Wire Line
+	5450 5850 5450 6350
+Wire Wire Line
+	5450 9150 5500 9150
+Wire Wire Line
+	5850 9150 5800 9150
+Wire Wire Line
+	5800 9150 5800 8500
+Connection ~ 5800 5850
+Wire Wire Line
+	5500 6350 5450 6350
+Connection ~ 5450 6350
+Wire Wire Line
+	5450 6350 5450 7100
+Wire Wire Line
+	5850 6350 5800 6350
+Connection ~ 5800 6350
+Wire Wire Line
+	5800 6350 5800 5850
+Wire Wire Line
+	5450 7100 5500 7100
+Connection ~ 5450 7100
+Wire Wire Line
+	5450 7100 5450 7850
+Wire Wire Line
+	5850 7100 5800 7100
+Connection ~ 5800 7100
+Wire Wire Line
+	5800 7100 5800 6350
+Wire Wire Line
+	5500 7850 5450 7850
+Connection ~ 5450 7850
+Wire Wire Line
+	5450 7850 5450 8500
+Wire Wire Line
+	5850 7850 5800 7850
+Connection ~ 5800 7850
+Wire Wire Line
+	5800 7850 5800 7100
+Wire Wire Line
+	5500 8500 5450 8500
+Connection ~ 5450 8500
+Wire Wire Line
+	5450 8500 5450 9150
+Wire Wire Line
+	5850 8500 5800 8500
+Connection ~ 5800 8500
+Wire Wire Line
+	5800 8500 5800 7850
+Wire Wire Line
+	6200 9150 6150 9150
+Wire Wire Line
+	6150 9150 6150 8500
+Wire Wire Line
+	6150 5850 6500 5850
+Wire Wire Line
+	6500 5850 6500 5800
+Wire Wire Line
+	6500 5850 6500 6350
+Wire Wire Line
+	6500 9150 6550 9150
+Connection ~ 6500 5850
+Wire Wire Line
+	6550 8500 6500 8500
+Connection ~ 6500 8500
+Wire Wire Line
+	6500 8500 6500 9150
+Wire Wire Line
+	6200 8500 6150 8500
+Connection ~ 6150 8500
+Wire Wire Line
+	6150 8500 6150 7850
+Wire Wire Line
+	6200 7850 6150 7850
+Connection ~ 6150 7850
+Wire Wire Line
+	6150 7850 6150 7100
+Wire Wire Line
+	6500 7850 6550 7850
+Connection ~ 6500 7850
+Wire Wire Line
+	6500 7850 6500 8500
+Wire Wire Line
+	6550 7100 6500 7100
+Connection ~ 6500 7100
+Wire Wire Line
+	6500 7100 6500 7850
+Wire Wire Line
+	6200 7100 6150 7100
+Connection ~ 6150 7100
+Wire Wire Line
+	6150 7100 6150 6350
+Wire Wire Line
+	6200 6350 6150 6350
+Connection ~ 6150 6350
+Wire Wire Line
+	6150 6350 6150 5850
+Wire Wire Line
+	6550 6350 6500 6350
+Connection ~ 6500 6350
+Wire Wire Line
+	6500 6350 6500 7100
+Wire Wire Line
+	6850 6350 6850 5850
+Wire Wire Line
+	6850 5850 7200 5850
+Text GLabel 7200 5800 1    50   Input ~ 0
+Col8
+Wire Wire Line
+	7200 5850 7200 5800
+Wire Wire Line
+	6900 6350 6850 6350
+Wire Wire Line
+	6850 6350 6850 7100
+Wire Wire Line
+	6850 9150 6900 9150
+Connection ~ 6850 6350
+Wire Wire Line
+	6900 8500 6850 8500
+Connection ~ 6850 8500
+Wire Wire Line
+	6850 8500 6850 9150
+Wire Wire Line
+	6900 7850 6850 7850
+Connection ~ 6850 7850
+Wire Wire Line
+	6850 7850 6850 8500
+Wire Wire Line
+	6900 7100 6850 7100
+Connection ~ 6850 7100
+Wire Wire Line
+	6850 7100 6850 7850
+Wire Wire Line
+	7250 6350 7200 6350
+Wire Wire Line
+	7200 6350 7200 5850
+Connection ~ 7200 5850
+Wire Wire Line
+	7250 7100 7200 7100
+Wire Wire Line
+	7200 7100 7200 6350
+Connection ~ 7200 6350
+Wire Wire Line
+	7250 7850 7200 7850
+Wire Wire Line
+	7200 7850 7200 7100
+Connection ~ 7200 7100
+Wire Wire Line
+	7250 9150 7200 9150
+Wire Wire Line
+	7200 9150 7200 7850
+Connection ~ 7200 7850
+Wire Wire Line
+	7600 6350 7550 6350
+Wire Wire Line
+	7550 6350 7550 5850
+Wire Wire Line
+	7550 5850 7900 5850
+Wire Wire Line
+	7900 5850 7900 5800
+Wire Wire Line
+	7550 6350 7550 7100
+Wire Wire Line
+	7550 7850 7600 7850
+Connection ~ 7550 6350
+Wire Wire Line
+	7600 7100 7550 7100
+Connection ~ 7550 7100
+Wire Wire Line
+	7550 7100 7550 7850
+Wire Wire Line
+	7950 6350 7900 6350
+Wire Wire Line
+	7900 6350 7900 5850
+Connection ~ 7900 5850
+Wire Wire Line
+	1150 6000 1500 6000
+Wire Wire Line
+	1150 6650 1500 6650
+Wire Wire Line
+	1150 6750 1850 6750
+Wire Wire Line
+	1150 7400 1500 7400
+Wire Wire Line
+	1150 7500 1850 7500
+Wire Wire Line
+	1150 8250 1850 8250
+Wire Wire Line
+	1150 8150 1500 8150
+Wire Wire Line
+	1150 8800 1500 8800
+Wire Wire Line
+	1150 8900 1850 8900
+Wire Wire Line
+	1150 9450 1500 9450
+Wire Wire Line
+	1150 9550 1850 9550
+Wire Wire Line
+	1500 6350 1500 6000
+Connection ~ 1500 6000
+Wire Wire Line
+	1500 6000 2200 6000
+Wire Wire Line
+	1850 6350 1850 6100
+Connection ~ 1850 6100
+Wire Wire Line
+	1850 6100 1150 6100
+Wire Wire Line
+	2200 6350 2200 6000
+Connection ~ 2200 6000
+Wire Wire Line
+	2200 6000 2900 6000
+Wire Wire Line
+	2550 6350 2550 6100
+Connection ~ 2550 6100
+Wire Wire Line
+	2550 6100 1850 6100
+Wire Wire Line
+	2900 6350 2900 6000
+Connection ~ 2900 6000
+Wire Wire Line
+	2900 6000 3600 6000
+Wire Wire Line
+	3250 6350 3250 6100
+Connection ~ 3250 6100
+Wire Wire Line
+	3250 6100 2550 6100
+Wire Wire Line
+	3600 6350 3600 6000
+Connection ~ 3600 6000
+Wire Wire Line
+	3600 6000 4300 6000
+Wire Wire Line
+	3950 6350 3950 6100
+Connection ~ 3950 6100
+Wire Wire Line
+	3950 6100 3250 6100
+Wire Wire Line
+	4300 6350 4300 6000
+Connection ~ 4300 6000
+Wire Wire Line
+	4300 6000 5000 6000
+Wire Wire Line
+	4650 6350 4650 6100
+Connection ~ 4650 6100
+Wire Wire Line
+	4650 6100 3950 6100
+Wire Wire Line
+	5000 6350 5000 6000
+Connection ~ 5000 6000
+Wire Wire Line
+	5000 6000 5700 6000
+Wire Wire Line
+	5350 6350 5350 6100
+Wire Wire Line
+	4650 6100 5350 6100
+Connection ~ 5350 6100
+Wire Wire Line
+	5350 6100 6050 6100
+Wire Wire Line
+	5700 6350 5700 6000
+Connection ~ 5700 6000
+Wire Wire Line
+	5700 6000 6400 6000
+Wire Wire Line
+	6050 6350 6050 6100
+Connection ~ 6050 6100
+Wire Wire Line
+	6050 6100 6750 6100
+Wire Wire Line
+	6400 6350 6400 6000
+Connection ~ 6400 6000
+Wire Wire Line
+	6750 6350 6750 6100
+Connection ~ 6750 6100
+Wire Wire Line
+	6750 6100 7450 6100
+Wire Wire Line
+	7100 6350 7100 6000
+Wire Wire Line
+	6400 6000 7100 6000
+Connection ~ 7100 6000
+Wire Wire Line
+	7450 6350 7450 6100
+Connection ~ 7450 6100
+Wire Wire Line
+	7450 6100 8150 6100
+Wire Wire Line
+	7800 6350 7800 6000
+Wire Wire Line
+	7100 6000 7800 6000
+Wire Wire Line
+	8150 6350 8150 6100
+Wire Wire Line
+	1500 7100 1500 6650
+Connection ~ 1500 6650
+Wire Wire Line
+	1500 6650 2200 6650
+Wire Wire Line
+	1850 7100 1850 6750
+Connection ~ 1850 6750
+Wire Wire Line
+	1850 6750 2550 6750
+Wire Wire Line
+	2200 7100 2200 6650
+Connection ~ 2200 6650
+Wire Wire Line
+	2200 6650 2900 6650
+Wire Wire Line
+	2550 7100 2550 6750
+Connection ~ 2550 6750
+Wire Wire Line
+	2550 6750 3250 6750
+Wire Wire Line
+	2900 7100 2900 6650
+Connection ~ 2900 6650
+Wire Wire Line
+	2900 6650 3600 6650
+Wire Wire Line
+	3250 7100 3250 6750
+Connection ~ 3250 6750
+Wire Wire Line
+	3250 6750 3950 6750
+Wire Wire Line
+	3600 7100 3600 6650
+Connection ~ 3600 6650
+Wire Wire Line
+	3950 7100 3950 6750
+Connection ~ 3950 6750
+Wire Wire Line
+	3950 6750 4650 6750
+Wire Wire Line
+	4300 7100 4300 6650
+Wire Wire Line
+	3600 6650 4300 6650
+Connection ~ 4300 6650
+Wire Wire Line
+	4300 6650 5000 6650
+Wire Wire Line
+	4650 7100 4650 6750
+Connection ~ 4650 6750
+Wire Wire Line
+	4650 6750 5350 6750
+Wire Wire Line
+	5000 7100 5000 6650
+Connection ~ 5000 6650
+Wire Wire Line
+	5000 6650 5700 6650
+Wire Wire Line
+	5350 7100 5350 6750
+Connection ~ 5350 6750
+Wire Wire Line
+	5350 6750 6050 6750
+Wire Wire Line
+	5700 7100 5700 6650
+Connection ~ 5700 6650
+Wire Wire Line
+	5700 6650 6400 6650
+Wire Wire Line
+	6050 7100 6050 6750
+Connection ~ 6050 6750
+Wire Wire Line
+	6050 6750 6750 6750
+Wire Wire Line
+	6400 7100 6400 6650
+Connection ~ 6400 6650
+Wire Wire Line
+	6400 6650 7100 6650
+Wire Wire Line
+	6750 7100 6750 6750
+Connection ~ 6750 6750
+Wire Wire Line
+	6750 6750 7450 6750
+Wire Wire Line
+	7100 7100 7100 6650
+Connection ~ 7100 6650
+Wire Wire Line
+	7450 7100 7450 6750
+Wire Wire Line
+	7800 7100 7800 6650
+Wire Wire Line
+	7100 6650 7800 6650
+Wire Wire Line
+	1500 7850 1500 7400
+Connection ~ 1500 7400
+Wire Wire Line
+	1500 7400 2200 7400
+Wire Wire Line
+	1850 7850 1850 7500
+Connection ~ 1850 7500
+Wire Wire Line
+	1850 7500 2550 7500
+Wire Wire Line
+	2200 7850 2200 7400
+Connection ~ 2200 7400
+Wire Wire Line
+	2200 7400 2900 7400
+Wire Wire Line
+	2550 7850 2550 7500
+Connection ~ 2550 7500
+Wire Wire Line
+	2550 7500 3250 7500
+Wire Wire Line
+	2900 7850 2900 7400
+Connection ~ 2900 7400
+Wire Wire Line
+	2900 7400 3600 7400
+Wire Wire Line
+	3250 7850 3250 7500
+Connection ~ 3250 7500
+Wire Wire Line
+	3250 7500 3950 7500
+Wire Wire Line
+	3600 7850 3600 7400
+Connection ~ 3600 7400
+Wire Wire Line
+	3600 7400 4300 7400
+Wire Wire Line
+	3950 7850 3950 7500
+Connection ~ 3950 7500
+Wire Wire Line
+	3950 7500 4650 7500
+Wire Wire Line
+	4300 7850 4300 7400
+Connection ~ 4300 7400
+Wire Wire Line
+	4300 7400 5000 7400
+Wire Wire Line
+	4650 7850 4650 7500
+Connection ~ 4650 7500
+Wire Wire Line
+	4650 7500 5350 7500
+Wire Wire Line
+	5000 7850 5000 7400
+Connection ~ 5000 7400
+Wire Wire Line
+	5000 7400 5700 7400
+Wire Wire Line
+	5350 7850 5350 7500
+Connection ~ 5350 7500
+Wire Wire Line
+	5350 7500 6050 7500
+Wire Wire Line
+	5700 7850 5700 7400
+Connection ~ 5700 7400
+Wire Wire Line
+	5700 7400 6400 7400
+Wire Wire Line
+	6050 7850 6050 7500
+Connection ~ 6050 7500
+Wire Wire Line
+	6050 7500 6750 7500
+Wire Wire Line
+	6400 7850 6400 7400
+Connection ~ 6400 7400
+Wire Wire Line
+	6400 7400 7100 7400
+Wire Wire Line
+	6750 7850 6750 7500
+Connection ~ 6750 7500
+Wire Wire Line
+	6750 7500 7450 7500
+Wire Wire Line
+	7100 7850 7100 7400
+Connection ~ 7100 7400
+Wire Wire Line
+	7100 7400 7800 7400
+Wire Wire Line
+	7450 7850 7450 7500
+Wire Wire Line
+	7800 7400 7800 7850
+Wire Wire Line
+	1500 8500 1500 8150
+Connection ~ 1500 8150
+Wire Wire Line
+	1500 8150 2200 8150
+Wire Wire Line
+	1850 8500 1850 8250
+Connection ~ 1850 8250
+Wire Wire Line
+	1850 8250 2550 8250
+Wire Wire Line
+	2200 8500 2200 8150
+Connection ~ 2200 8150
+Wire Wire Line
+	2200 8150 2900 8150
+Wire Wire Line
+	2550 8500 2550 8250
+Connection ~ 2550 8250
+Wire Wire Line
+	2550 8250 3250 8250
+Wire Wire Line
+	2900 8500 2900 8150
+Connection ~ 2900 8150
+Wire Wire Line
+	2900 8150 3600 8150
+Wire Wire Line
+	3250 8500 3250 8250
+Connection ~ 3250 8250
+Wire Wire Line
+	3250 8250 3950 8250
+Wire Wire Line
+	3600 8500 3600 8150
+Connection ~ 3600 8150
+Wire Wire Line
+	3600 8150 4300 8150
+Wire Wire Line
+	3950 8500 3950 8250
+Connection ~ 3950 8250
+Wire Wire Line
+	3950 8250 4650 8250
+Wire Wire Line
+	4300 8500 4300 8150
+Connection ~ 4300 8150
+Wire Wire Line
+	4300 8150 5000 8150
+Wire Wire Line
+	4650 8500 4650 8250
+Connection ~ 4650 8250
+Wire Wire Line
+	4650 8250 5350 8250
+Wire Wire Line
+	5000 8500 5000 8150
+Connection ~ 5000 8150
+Wire Wire Line
+	5350 8500 5350 8250
+Connection ~ 5350 8250
+Wire Wire Line
+	5350 8250 6050 8250
+Wire Wire Line
+	5700 8500 5700 8150
+Wire Wire Line
+	5000 8150 5700 8150
+Connection ~ 5700 8150
+Wire Wire Line
+	5700 8150 6400 8150
+Wire Wire Line
+	6050 8500 6050 8250
+Connection ~ 6050 8250
+Wire Wire Line
+	6050 8250 6750 8250
+Wire Wire Line
+	6400 8500 6400 8150
+Connection ~ 6400 8150
+Wire Wire Line
+	6400 8150 7100 8150
+Wire Wire Line
+	6750 8500 6750 8250
+Wire Wire Line
+	7100 8500 7100 8150
+Wire Wire Line
+	1500 9150 1500 8800
+Connection ~ 1500 8800
+Wire Wire Line
+	1500 8800 2200 8800
+Wire Wire Line
+	1850 9150 1850 8900
+Connection ~ 1850 8900
+Wire Wire Line
+	1850 8900 2550 8900
+Wire Wire Line
+	2200 9150 2200 8800
+Connection ~ 2200 8800
+Wire Wire Line
+	2200 8800 2900 8800
+Wire Wire Line
+	1500 9800 1500 9450
+Connection ~ 1500 9450
+Wire Wire Line
+	1500 9450 2200 9450
+Wire Wire Line
+	1850 9800 1850 9550
+Connection ~ 1850 9550
+Wire Wire Line
+	1850 9550 2550 9550
+Wire Wire Line
+	2200 9800 2200 9450
+Connection ~ 2200 9450
+Wire Wire Line
+	2200 9450 2900 9450
+Wire Wire Line
+	2550 9800 2550 9550
+Connection ~ 2550 9550
+Wire Wire Line
+	2550 9550 3250 9550
+Wire Wire Line
+	2550 9150 2550 8900
+Connection ~ 2550 8900
+Wire Wire Line
+	2550 8900 3250 8900
+Wire Wire Line
+	2900 9150 2900 8800
+Connection ~ 2900 8800
+Wire Wire Line
+	2900 8800 3600 8800
+Wire Wire Line
+	3250 9150 3250 8900
+Connection ~ 3250 8900
+Wire Wire Line
+	3250 8900 3950 8900
+Wire Wire Line
+	2900 9800 2900 9450
+Connection ~ 2900 9450
+Wire Wire Line
+	2900 9450 3600 9450
+Wire Wire Line
+	3250 9800 3250 9550
+Connection ~ 3250 9550
+Wire Wire Line
+	3250 9550 3950 9550
+Wire Wire Line
+	3600 9800 3600 9450
+Connection ~ 3600 9450
+Wire Wire Line
+	3600 9450 4300 9450
+Wire Wire Line
+	3600 9150 3600 8800
+Connection ~ 3600 8800
+Wire Wire Line
+	3600 8800 4300 8800
+Wire Wire Line
+	3950 9150 3950 8900
+Connection ~ 3950 8900
+Wire Wire Line
+	3950 8900 4650 8900
+Wire Wire Line
+	3950 9800 3950 9550
+Connection ~ 3950 9550
+Wire Wire Line
+	3950 9550 4650 9550
+Wire Wire Line
+	4300 9150 4300 8800
+Connection ~ 4300 8800
+Wire Wire Line
+	4300 8800 5000 8800
+Wire Wire Line
+	4300 9800 4300 9450
+Connection ~ 4300 9450
+Wire Wire Line
+	4300 9450 5000 9450
+Wire Wire Line
+	4650 9150 4650 8900
+Connection ~ 4650 8900
+Wire Wire Line
+	4650 8900 5350 8900
+Wire Wire Line
+	5000 9150 5000 8800
+Connection ~ 5000 8800
+Wire Wire Line
+	5000 8800 5700 8800
+Wire Wire Line
+	5350 9150 5350 8900
+Connection ~ 5350 8900
+Wire Wire Line
+	5350 8900 6050 8900
+Wire Wire Line
+	4650 9800 4650 9550
+Connection ~ 4650 9550
+Wire Wire Line
+	4650 9550 5350 9550
+Wire Wire Line
+	5000 9800 5000 9450
+Wire Wire Line
+	5350 9800 5350 9550
+Wire Wire Line
+	5700 9150 5700 8800
+Connection ~ 5700 8800
+Wire Wire Line
+	5700 8800 6400 8800
+Wire Wire Line
+	6050 9150 6050 8900
+Connection ~ 6050 8900
+Wire Wire Line
+	6050 8900 6750 8900
+Wire Wire Line
+	6400 9150 6400 8800
+Connection ~ 6400 8800
+Wire Wire Line
+	6400 8800 7100 8800
+Wire Wire Line
+	6750 9150 6750 8900
+Connection ~ 6750 8900
+Wire Wire Line
+	6750 8900 7450 8900
+Wire Wire Line
+	7100 9150 7100 8800
+Wire Wire Line
+	7450 9150 7450 8900
 $EndSCHEMATC
