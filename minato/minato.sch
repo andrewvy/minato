@@ -2724,9 +2724,9 @@ SWCLK
 Text GLabel 14750 4150 2    50   Input ~ 0
 SWDIO
 Text GLabel 14750 3950 2    50   Input ~ 0
-D-
+DBUS-
 Text GLabel 14750 4050 2    50   Input ~ 0
-D+
+DBUS+
 Text GLabel 13450 1750 0    50   Input ~ 0
 NRST
 Text GLabel 14750 3150 2    50   Input ~ 0
